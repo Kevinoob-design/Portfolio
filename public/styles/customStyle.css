@@ -2,3 +2,29 @@ body {
     font-family: 'Source Serif Pro',
         serif;
 }
+
+.headerContainer{
+    height: 600px;
+}
+
+.nameBox{
+    height: 60px;
+    top: 55px;
+    left: 25%;
+    right: 25%;
+}
+
+.imgHolder{
+    background-image: url("../img/IMG_6031\(Edited\).jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .nameBox {
+        left: 0%;
+        right: 0%;
+    }
+}
