@@ -1,9 +1,10 @@
 //jshint esversion:6
 
 import React from "react";
+import Header from "./Components/Header/Header";
 
 function App(){
-    return(<h1>Hello</h1>);
+    return (<Header/>);
 }
 
 export default App;
