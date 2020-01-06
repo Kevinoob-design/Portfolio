@@ -1,0 +1,43 @@
+[
+    {
+        "companyName": "Stream International (Bermuda) LTD Concentrix.",
+        "address": "Churchill, Santo Domingo, City Center, Rep Dom.",
+        "Position": "Customer Support Associate II",
+        "date": {
+            "from": "12/2017",
+            "to": "05/2019"
+        },
+        "responsabilities": [
+            {
+                "responsabilitie": "Provide responsive and competent customer support within a call center environment."
+            },
+            {
+                "responsabilitie": "Learn, understand, retain and regularly update and demonstrate product/process knowledge."
+            },
+            {
+                "responsabilitie": "Track, document and retrieve information in call tracking database."
+            }
+        ]
+    },
+
+    {
+        "companyName": "Hershey Entertainment & Resorts Company.",
+        "Position": "Life Guard",
+        "address": "100 Hotel Road, Hershey, PA, USA, 17033.",
+        "date": {
+            "from": "05/2019",
+            "to": "09/2019"
+        },
+        "responsabilities": [
+            {
+                "responsabilitie": "Anticipate, recognize, and respond to aquatic emergencies."
+            },
+            {
+                "responsabilitie": "Safeguard guests using aquatic facilities and perform any necessary rescues/administer first aid."
+            },
+            {
+                "responsabilitie": "Enforce all rules and regulations politely to prevent accidents."
+            }
+        ]
+    }
+]
