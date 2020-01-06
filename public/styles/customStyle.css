@@ -3,8 +3,17 @@ body {
         serif;
 }
 
-.headerContainer{
+.headerContainer {
     height: 600px;
+}
+
+.testimonyCover{
+    padding-top: 5%;
+}
+
+.testimony{
+    height: 400px;
+    padding-top: 20%;
 }
 
 .nameBox{
@@ -52,5 +61,9 @@ body {
     }
     .programTitle{
         padding: 0;
+    }
+    .testimony{
+        height: auto;
+        padding-top: 0%;
     }
 }
