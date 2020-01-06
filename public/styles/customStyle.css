@@ -30,11 +30,15 @@ body {
     width: 49%;
     height: 450px;
     vertical-align: bottom;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .resp{
     height: 50%;
+}
+
+.programTitle{
+    padding: 50px 0;
 }
 
 @media only screen and (max-width: 400px) {
@@ -45,5 +49,8 @@ body {
     .aboutCard,
     .workCard {
         width: 100%;
+    }
+    .programTitle{
+        padding: 0;
     }
 }

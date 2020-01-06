@@ -1,0 +1,10 @@
+[
+    {
+        "programName": "Work And Travel (WAT)",
+        "img":{
+            "url": "https://redux.js.org/img/redux.svg",
+            "alt": "WAT Image"
+        },
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo adipisci temporibus hic velit voluptas non incidunt suscipit tempore nobis. Maiores deserunt eum ad praesentium inventore dolore neque assumenda non animi."
+    }
+]
