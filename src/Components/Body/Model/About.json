@@ -1,6 +1,6 @@
 [
     {
-        "title": "dummie title 1",
+        "title": "EDUCATION",
         "img": {
             "url": "https://redux.js.org/img/redux.svg",
             "alt": "dummie img 1"
@@ -8,7 +8,7 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
-        "title": "dummie title 2",
+        "title": "SKILLS",
         "img": {
             "url": "https://redux.js.org/img/redux.svg",
             "alt": "dummie img 1"
@@ -16,7 +16,7 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
-        "title": "dummie title 3",
+        "title": "PROJECTS",
         "img": {
             "url": "https://redux.js.org/img/redux.svg",
             "alt": "dummie img 1"
@@ -24,7 +24,7 @@
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
     },
     {
-        "title": "dummie title 4",
+        "title": "PHOTOGRAPHY",
         "img": {
             "url": "https://redux.js.org/img/redux.svg",
             "alt": "dummie img 1"

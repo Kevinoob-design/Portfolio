@@ -11,7 +11,7 @@ function Body(){
     <div>
         <About/>
         <WorkExp/>
-            <PerpExp/>
+        <PerpExp/>
     </div>);
 }
 
