@@ -5,7 +5,7 @@ import React from "react";
 function Presentation(){
 
     return (
-    <div className="flex relative w-full md:max-w-6xl headerContainer mx-auto">
+    <div className="flex relative w-full headerContainer mx-auto md:max-w-6xl">
         <div className="absolute bg-black md:w-1/2 w-auto nameBox md:text-4xl text-3xl text-center border-4"><h1>Hector J. Morales Veloz</h1></div>
         <div className="hidden md:block h-full w-1/2 imgHolder"></div>
         <div className="h-full w-full bg-gray-800 p-5 text-2xl">

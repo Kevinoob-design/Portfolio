@@ -1,0 +1,33 @@
+[{
+        "title": "dummie title 1",
+        "img": {
+            "url": "https://redux.js.org/img/redux.svg",
+            "alt": "dummie img 1"
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+        "title": "dummie title 2",
+        "img": {
+            "url": "https://redux.js.org/img/redux.svg",
+            "alt": "dummie img 1"
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+        "title": "dummie title 3",
+        "img": {
+            "url": "https://redux.js.org/img/redux.svg",
+            "alt": "dummie img 1"
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    {
+        "title": "dummie title 4",
+        "img": {
+            "url": "https://redux.js.org/img/redux.svg",
+            "alt": "dummie img 1"
+        },
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    }
+]
