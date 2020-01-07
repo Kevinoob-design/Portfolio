@@ -41,6 +41,37 @@ body {
     padding: 50px 0;
 }
 
+@media only screen and (max-width: 900px) {
+
+    .aboutCard {
+        width: 48%;
+    }
+
+    .workCard {
+        height: auto;
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .aboutCard {
+        width: 48%;
+        margin: 5px;
+    }
+
+    .workCard {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 517px){
+    .aboutCard {
+        width: 47%;
+        margin: 6px;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .nameBox {
         left: 0%;
