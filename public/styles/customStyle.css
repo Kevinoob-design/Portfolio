@@ -7,15 +7,6 @@ body {
     height: 600px;
 }
 
-.testimonyCover{
-    padding-top: 5%;
-}
-
-.testimony{
-    height: 400px;
-    padding-top: 20%;
-}
-
 .nameBox{
     height: 60px;
     top: 55px;
@@ -46,7 +37,7 @@ body {
     height: 50%;
 }
 
-.programTitle{
+.middleAlign{
     padding: 50px 0;
 }
 
@@ -59,7 +50,7 @@ body {
     .workCard {
         width: 100%;
     }
-    .programTitle{
+    .middleAlign {
         padding: 0;
     }
     .testimony{

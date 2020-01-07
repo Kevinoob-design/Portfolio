@@ -1,0 +1,45 @@
+.menuCollapse {
+    animation: slideDown 0.5s ease-in-out;
+    /* height: 100vh; */
+    height: 100%;
+}
+
+.menuCollapseUp {
+    animation: slideUp 0.5s ease-in-out;
+    height: 3rem;
+}
+
+
+@keyframes slideDown {
+    from {
+        height: 3rem;
+    }
+
+    to {
+        height: 100vh;
+    }
+
+}
+
+@keyframes slideUp {
+    from {
+        height: 100vh;
+    }
+
+    to {
+        height: 3rem;
+    } 
+}
+
+    @keyframes fadeOutUp {
+        from {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        to {
+            opacity: 0;
+            transform: translate3d(0, -100%, 0);
+            pointer-events: none;
+        }
+    }
