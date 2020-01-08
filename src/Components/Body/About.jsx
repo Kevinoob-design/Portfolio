@@ -3,6 +3,7 @@
 import React from "react";
 import AboutCard from "./BodyComponents/AboutCardComponent";
 import aboutModel from "./Model/About.json";
+import Skills from "./Skills";
 
 function About(){
     return (
@@ -16,6 +17,8 @@ function About(){
                 return <AboutCard params={element} />
             })}
         </div>
+
+        <Skills/>
     </div>);
 }
 export default About;

@@ -1,0 +1,26 @@
+[
+    {
+        "chartData": {
+            "title": "Programming languajes",
+            "labels": ["C#", "JS"],
+            "datasets": [
+                {
+                "data": [10, 8, 0],
+                "backgroundColor": ["rgba(241, 83, 112, 0.8)"]
+                }
+            ]
+        }
+    },
+    {
+        "chartData": {
+            "title": "Front End Frameworks",
+            "labels": ["Boostrap", "React", "Jquery"],
+            "datasets": [
+                {
+                    "data": [8, 9, 7, 0],
+                    "backgroundColor": ["rgba(241, 83, 112, 0.8)"]
+                }
+            ]
+        }
+    }
+]
