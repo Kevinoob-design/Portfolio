@@ -50,8 +50,8 @@ function Nav(){
             <ul className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
                 <li className={animate + " text-2xl p-5"}><a href="#">Home</a></li>
                 <li className={animate + " text-2xl p-5"}><a href="#">About</a></li>
-                <li className={animate + " text-2xl p-5"}><a href="#">Work Experience</a></li>
-                <li className={animate + " text-2xl p-5"}><a href="#">Personal Experience</a></li>
+                <li className={animate + " text-2xl p-5"}><a href="#">Work</a></li>
+                <li className={animate + " text-2xl p-5"}><a href="#">Experience</a></li>
                 <li className={animate + " text-2xl p-5"}><a href="#">Contact</a></li>
             </ul>
         </nav>);

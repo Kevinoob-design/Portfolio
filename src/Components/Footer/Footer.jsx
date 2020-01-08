@@ -18,6 +18,11 @@ function Footer(){
                     return (<SocialStack params={element}/>);
                 })}
             </div>
+
+            <div className="text-sm pt-5">
+                <p><span>&copy;</span> 2020 • Kevinoob-Design all rights reserved</p>
+                <p>Develop & Designed by <b>Hector Morales</b></p>
+            </div>
         </div>
     )
 }

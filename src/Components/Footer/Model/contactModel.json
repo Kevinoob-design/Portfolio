@@ -13,5 +13,9 @@
 
         "url": "https://www.instagram.com/hector.moralesveloz/?hl=en",
         "icon": "InstagramIcon"
+    },
+    {
+        "url": "https://twitter.com/HectorMveloZ",
+        "icon": "TwitterIcon"
     }
 ]
