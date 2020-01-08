@@ -3,7 +3,6 @@
 import React from "react";
 
 function AboutCard(props){
-
     return (
         <div className="inline-block md:my-5 my-2 md:mx-1 bg-gray-800 aboutCard border-2 p-2">
             <div className=""><p className="text-2xl text-center">{props.params.title}</p></div>

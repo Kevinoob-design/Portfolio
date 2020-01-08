@@ -11,12 +11,12 @@ import "slick-carousel/slick/slick-theme.css";
 function Testimonials(){
 
     return(
-        <div className="md:flex mt-5 bg-gray-800 md:max-w-6xl mx-auto md:p-10 p-2">
-            <div className="md:w-1/3 text-center middleAlign">
-                <h1 className="text-6xl font-hairline">What others are saying</h1>
+        <div className="md:flex mt-5 bg-gray-800 md:max-w-6xl mx-auto md:p-10 p-2 items-center testimonialCard">
+            <div className="md:w-1/3 text-center">
+                <h1 className="text-6xl font-hairline ">What others are saying</h1>
             </div>
 
-            <div className="md:w-2/3 mb-5 middleAlign">
+            <div className="md:w-2/3 mb-5">
                 <Slider autoplaySpeed={3000} silideToShow={1} slideToScroll={1} infinite={true} dots={true}arrows={false} autoplay>
 
                     {testimonialModel.map(element => {
