@@ -28,11 +28,11 @@ function Nav(){
 
         setMenuCollapse(prev => {
             if (prev === "menuCollapse") {     
-                setAnimation("fadeOutUp animated");
+                setAnimation("fadeOutUp animated faster");
                 setTimeout(() => { setHidden("hidden"); }, 500);
                 return "menuCollapseUp";
             } else {
-                setAnimation("fadeInDown animated");
+                setAnimation("fadeInDown animated fast");
                 setHidden("visible");
                 return "menuCollapse";
             }
@@ -56,5 +56,4 @@ function Nav(){
             </ul>
         </nav>);
 }
-
 export default Nav;

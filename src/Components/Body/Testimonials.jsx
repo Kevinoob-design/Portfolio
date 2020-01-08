@@ -17,7 +17,7 @@ function Testimonials(){
             </div>
 
             <div className="md:w-2/3 mb-5">
-                <Slider autoplaySpeed={3000} silideToShow={1} slideToScroll={1} infinite={true} dots={true}arrows={false} autoplay>
+                <Slider autoplaySpeed={5000} silideToShow={1} slideToScroll={1} infinite={true} dots={true}arrows={false} autoplay>
 
                     {testimonialModel.map(element => {
                         return(

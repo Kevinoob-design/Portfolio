@@ -15,7 +15,7 @@ function PerExp(){
                 <div className="md:w-1/2 w-auto text-3xl text-center border-4 mx-auto">PERSONAL EXPERIENCE</div>
 
                 <div className="mb-5">
-                    <Slider autoplaySpeed={3000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
+                    <Slider autoplaySpeed={5000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
                         {perExpModel.map(element => {
                             return (<PerExpCard params={element}/>);
                         })}

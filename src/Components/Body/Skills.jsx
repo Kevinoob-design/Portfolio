@@ -15,7 +15,7 @@ function Skills(){
             <div className="md:w-1/2 w-auto text-2xl text-center mx-auto underline">SKILLS</div>
 
             <div className="pb-5">
-                <Slider autoplaySpeed={3000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
+                <Slider autoplaySpeed={5000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
 
                     {chartModel.map(element => {
                         return (<Chart params={element}/>);
