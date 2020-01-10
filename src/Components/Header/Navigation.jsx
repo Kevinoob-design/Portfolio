@@ -41,6 +41,8 @@ function Nav(){
         });
     }
 
+    
+
     return (
         <nav className={"top-0 p-1 fixed bg-gray-900 md:m-auto w-full md:h-auto md:relative z-50 " + menuCollapse}>
             
