@@ -12,6 +12,7 @@
     "react": "^16.12.0",
     "react-chartjs-2": "^2.8.0",
     "react-dom": "^16.12.0",
+    "react-hamburgers": "^1.0.0",
     "react-scripts": "3.3.0",
     "react-slick": "^0.25.2",
     "slick-carousel": "^1.8.1",
@@ -22,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:css": "tailwind build src/tailwind.css -o public/styles/style.css"
+    "build:css": "tailwind build src/tailwind.css -o public/styles/style.css",
+    "build:sass": "sass src/sass/styles.scss public/styles/index.css"
   },
   "eslintConfig": {
     "extends": "react-app"
