@@ -6,6 +6,7 @@ import Body from "./Components/Body/Body";
 import Footer from "./Components/Footer/Footer";
 
 function App(){
+
     return (
     <div className="w-full h-screen md:px-10 text-white">
         <Header />
