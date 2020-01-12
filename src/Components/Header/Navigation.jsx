@@ -52,11 +52,11 @@ function Nav(){
             </div>
 
             <ul className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
-                <li className={animate + " text-2xl p-5 fast"}><a href="#">Home</a></li>
-                <li className={animate + " text-2xl p-5 fast"}><a href="#">About</a></li>
-                <li className={animate + " text-2xl p-5 fast"}><a href="#">Work</a></li>
-                <li className={animate + " text-2xl p-5 fast"}><a href="#">Experience</a></li>
-                <li className={animate + " text-2xl p-5 fast"}><a href="#">Contact</a></li>
+                <li className={animate + " text-2xl p-5 fast"}><a className="nav__item" href="#">Home</a></li>
+                <li className={animate + " text-2xl p-5 fast"}><a className="nav__item" href="#">About</a></li>
+                <li className={animate + " text-2xl p-5 fast"}><a className="nav__item" href="#">Work</a></li>
+                <li className={animate + " text-2xl p-5 fast"}><a className="nav__item" href="#">Experience</a></li>
+                <li className={animate + " text-2xl p-5 fast"}><a className="nav__item" href="#">Contact</a></li>
             </ul>
         </nav>);
 }
