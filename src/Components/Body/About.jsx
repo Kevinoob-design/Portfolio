@@ -1,27 +1,24 @@
 //jshint esversion:6 
 
-import React from "react";
+import React, {useState, useEffect} from "react";
 import AboutCard from "./BodyComponents/AboutCardComponent";
 // import aboutModel from "./Model/About.json";
 import Skills from "./Skills";
 
-import axios from "axios";
-
 function About(){
 
-    let aboutModel = [];
+    const [aboutModel, setAboutModel] = useState([]);
 
-    // axios.get("http://localhost:3000/about/api/get").then(myJson => {
-    //     console.table(myJson);
-    // });
-
-    fetch("http://localhost:3001/about/api/get")
-        .then((response) => {
-            return response.json();
-        })
-        .then((myJson) => {
-            console.table(myJson);
-        });
+    useEffect(() => {
+        fetch("http://localhost:3001/about/api/about")
+            .then((response) => {
+                return response.json();
+            })
+            .then((myJson) => {
+                console.log(myJson);
+                setAboutModel(myJson);
+            });
+    }, []);
 
     return (
     <div className="pt-5 md:max-w-6xl mx-auto">

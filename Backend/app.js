@@ -1,6 +1,7 @@
 //jshint esversion:6
 
 const express = require("express");
+var cors = require("cors");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
@@ -10,6 +11,7 @@ mongoose.connect("mongodb://localhost/portfolio");
 
 const app = new express();
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 
