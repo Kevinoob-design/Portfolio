@@ -5,6 +5,7 @@ body {
 
 .headerContainer {
     height: 600px;
+    /* height: 100vh; */
 }
 
 .nameBox{
@@ -31,10 +32,6 @@ body {
     height: 450px;
     vertical-align: bottom;
     /* justify-content: space-between; */
-}
-
-.testimonialCard{
-    /* height: 28rem; */
 }
 
 .resp{
