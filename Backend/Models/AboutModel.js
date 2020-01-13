@@ -27,6 +27,6 @@ const AboutSchema = new Schema(
     }
 });
 
-const About = mongoose.model("about", AboutSchema);
+const About = mongoose.model("ContactForClient", AboutSchema);
 
 module.exports = About;

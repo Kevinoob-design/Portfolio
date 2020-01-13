@@ -2,17 +2,17 @@
 
 const express = require("express");
 const router = express.Router();
-const About = require ("../Models/AboutModel");
+const Contact = require ("../Models/ContactModel");
 
 let get = (req, res, next) => {
-    About.find({}).then(resDB => {
+    Contact.find({}).then(resDB => {
         res.send(resDB);
     }).catch(next);
 };
 
 let post = (req, res, next) => {
     console.table(req.body);
-    About.create(req.body).then(resDB => {
+    Contact.create(req.body).then(resDB => {
         res.send(resDB);
     }).catch(next);
 };
@@ -26,7 +26,7 @@ let put = (req, res, next) => {
 
     console.table(req.body);
 
-    About.findOneAndUpdate(id, req.body, (err, resDB) => {
+    Contact.findOneAndUpdate(id, req.body, (err, resDB) => {
         if (err) {
             res.send(err);
         } else {
@@ -38,7 +38,7 @@ let put = (req, res, next) => {
 
 let del = (req, res, next) => {
     console.table(req.body); 
-    About.findByIdAndDelete(req.body.id, (err, resDB) => {
+    Contact.findByIdAndDelete(req.body.id, (err, resDB) => {
         if(err){
             res.send(err);
         }else{
@@ -46,6 +46,6 @@ let del = (req, res, next) => {
         }
 }).catch(next)};
 
-router.route("/about").get(get).post(post).put(put).delete(del);
+router.route("/contact").get(get).post(post).put(put).delete(del);
 
 module.exports = router;
