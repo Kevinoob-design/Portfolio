@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
-mongoose.connect("mongodb://25.7.81.153/portfolio");
+mongoose.connect("mongodb://localhost/portfolio");
 mongoose.set('useFindAndModify', false);
 
 const app = new express();
