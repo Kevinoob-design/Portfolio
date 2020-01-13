@@ -2,12 +2,12 @@
 
 import React, {useState, useEffect} from "react";
 import AboutCard from "./BodyComponents/AboutCardComponent";
-// import aboutModel from "./Model/About.json";
+import aboutModel from "./Model/About.json";
 import Skills from "./Skills";
 
 function About(){
 
-    const [aboutModel, setAboutModel] = useState([]);
+    // const [aboutModel, setAboutModel] = useState([]);
 
     useEffect(() => {
         fetch("http://localhost:3001/about/api/about")
@@ -16,7 +16,7 @@ function About(){
             })
             .then((myJson) => {
                 console.log(myJson);
-                setAboutModel(myJson);
+                // setAboutModel(myJson);
             });
     }, []);
 
