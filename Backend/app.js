@@ -7,16 +7,20 @@ const mongoose = require("mongoose");
 const _ = require("lodash");
 
 mongoose.connect("mongodb://localhost/portfolio");
-// mongoose.Promise = global.Promise;
+mongoose.set('useFindAndModify', false);
 
 const app = new express();
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded()); 
 
 //Accessing to the different available routes.
-app.use("/about/api", require("./routes/api"));
+app.use("/api", require("./routes/api"));
+
+app.use((err, req, res, next) =>{
+    console.log(err);
+});
 
 app.listen(process.env.PORT || 3001, function () {
     console.log("Running");

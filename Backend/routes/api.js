@@ -4,36 +4,39 @@ const express = require("express");
 const router = express.Router();
 const About = require ("../Models/AboutModel");
 
-let get = (req, res) => {
+let get = (req, res, next) => {
     About.find({}).then(resDB => {
         res.send(resDB);
-    });
+    }).catch(next);
 };
 
-let post = (req, res) => {
+let post = (req, res, next) => {
     console.table(req.body);
     About.create(req.body).then(resDB => {
         res.send(resDB);
-    });
+    }).catch(next);
 };
 
-let put = (req, res) => {
+let put = (req, res, next) => {
 
-    let data  = req.body.filter(element => {
-        return element.id != element.id;
-    });
+    console.table(req.body);
 
-    About.findOneAndUpdate(req.body.id, data, (err, resDB) => {
+    let id  = req.body.id;
+    delete req.body[id];
+
+    console.table(req.body);
+
+    About.findOneAndUpdate(id, req.body, (err, resDB) => {
         if (err) {
             res.send(err);
         } else {
             res.send(resDB);
         }
-    });
+    }).catch(next);
 
 };
 
-let del = (req, res) => {
+let del = (req, res, next) => {
     console.table(req.body); 
     About.findByIdAndDelete(req.body.id, (err, resDB) => {
         if(err){
@@ -41,7 +44,7 @@ let del = (req, res) => {
         }else{
             res.send(resDB);
         }
-})};
+}).catch(next)};
 
 router.route("/about").get(get).post(post).put(put).delete(del);
 
