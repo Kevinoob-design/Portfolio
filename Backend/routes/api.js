@@ -3,6 +3,7 @@
 const express = require("express");
 const router = express.Router();
 const Contact = require ("../Models/ContactModel");
+const _ = require("lodash");
 
 let get = (req, res, next) => {
     Contact.find({}).then(resDB => {
@@ -11,7 +12,9 @@ let get = (req, res, next) => {
 };
 
 let post = (req, res, next) => {
+    _.camelCase(req.body);
     console.table(req.body);
+
     Contact.create(req.body).then(resDB => {
         res.send(resDB);
     }).catch(next);

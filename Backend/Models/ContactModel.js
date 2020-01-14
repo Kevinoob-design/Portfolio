@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
@@ -29,6 +31,6 @@ const ContacttSchema = new Schema({
     },
 });
 
-const Contact = mongoose.model("about", ContacttSchema);
+const Contact = mongoose.model("contact-info", ContacttSchema);
 
 module.exports = Contact;

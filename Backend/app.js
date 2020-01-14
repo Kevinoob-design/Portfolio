@@ -4,7 +4,6 @@ const express = require("express");
 var cors = require("cors");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const _ = require("lodash");
 
 mongoose.connect("mongodb://localhost/portfolio");
 mongoose.set('useFindAndModify', false);
