@@ -1,8 +1,28 @@
 //jshint esversion:6
 
+require("dotenv").config();
 const express = require("express");
 const router = express.Router();
 const Contact = require ("../Models/ContactModel");
+const nodemailer = require("nodemailer");
+
+let transporter = nodemailer.createTransport({
+  host: "smtp-mail.outlook.com",
+  port: 587,
+  secure: false,
+  auth: {
+      user: process.env.EMAIL,
+      pass: process.env.PASS
+  },
+  tls: {
+      rejectUnauthorized: false
+  }
+});
+const output = `
+
+    <h1>You have receive your firs contact request!!</h1>
+    <p>Congrats the emails does work</p>
+`
 
 let get = (req, res, next) => {
     Contact.find({}).then(resDB => {
@@ -12,8 +32,25 @@ let get = (req, res, next) => {
 
 let post = (req, res, next) => {
     console.table(req.body);
+
+    var message = {
+        from: req.body.ContactEmail,
+        to: process.env.EMAIL,
+        subject: req.body.Subject,
+        text: req.body.Details,
+        html: output
+    };
+
     Contact.create(req.body).then(resDB => {
-        res.send(resDB);
+        transporter.sendMail(message, (err, info) => {
+            if (err) {
+                console.log(err);
+            }
+            else {
+                console.log(info);
+            }
+        });
+        res.redirect("/");
     }).catch(next);
 };
 
