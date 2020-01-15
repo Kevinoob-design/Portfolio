@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 function Skills(){
 
     return (
-        <div className="pb-5">
+        <div id="skills" className="pb-5">
             <div className="md:w-1/2 w-auto text-2xl text-center mx-auto underline">SKILLS</div>
 
             <div className="pb-5">

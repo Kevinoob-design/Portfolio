@@ -1,6 +1,7 @@
 //jshint esversion:6
 
 import React, { useState } from "react";
+import { Link, withRouter } from "react-router-dom";
 
 function Nav(){
     const [menuCollapse, setMenuCollapse] = useState("");
@@ -79,32 +80,32 @@ function Nav(){
           }
         >
           <li className={animate + " text-2xl p-5 fast"}>
-            <a className="nav__item" href="#">
+            <Link className="nav__item" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <a className="nav__item" href="#">
+            <Link className="nav__item" to="/#about">
               About
-            </a>
+            </Link>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <a className="nav__item" href="#">
+            <Link className="nav__item" to="/#work">
               Work
-            </a>
+            </Link>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <a className="nav__item" href="#">
+            <Link className="nav__item" to="/#PerpExp">
               Experience
-            </a>
+            </Link>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <a className="nav__item" href="#">
+            <Link className="nav__item" to="#footer">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
     );
 }
-export default Nav;
+export default withRouter(Nav);

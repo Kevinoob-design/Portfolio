@@ -6,7 +6,7 @@ import social from "./Model/contactModel.json";
 
 function Footer(){
     return (
-        <div className="text-center h-48">
+        <div id="footer" className="text-center h-48">
             <div className="md:w-1/2 w-auto text-2xl text-center mx-auto underline">CONTACT ME</div>
 
             <div className="my-2">

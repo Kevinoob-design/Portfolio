@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function PerExp(){
     return (
-        <div>
+        <div id="PerpExp">
             <div className="pb-5 md:max-w-6xl mx-auto">
                 <div className="md:w-1/2 w-auto text-3xl text-center border-4 mx-auto">PERSONAL EXPERIENCE</div>
 

@@ -9,19 +9,19 @@ function About(){
 
     // const [aboutModel, setAboutModel] = useState([]);
 
-    useEffect(() => {
-        fetch("http://localhost:3001/about/api/about")
-            .then((response) => {
-                return response.json();
-            })
-            .then((myJson) => {
-                console.log(myJson);
-                // setAboutModel(myJson);
-            });
-    }, []);
+    // useEffect(() => {
+    //     fetch("http://localhost:3001/about/api/about")
+    //         .then((response) => {
+    //             return response.json();
+    //         })
+    //         .then((myJson) => {
+    //             console.log(myJson);
+    //             // setAboutModel(myJson);
+    //         });
+    // }, []);
 
     return (
-    <div className="pt-5 md:max-w-6xl mx-auto">
+    <div id="about" className="pt-5 md:max-w-6xl mx-auto">
         <div className="md:w-1/2 w-auto text-3xl text-center border-4 mx-auto">
             ABOUT
         </div>
