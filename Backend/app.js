@@ -9,7 +9,7 @@ mongoose.connect("mongodb://localhost/portfolio");
 mongoose.set('useFindAndModify', false);
 
 const app = new express();
-// app.use(express.static("../public"));
+app.use(express.static("../build"));
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -26,6 +26,6 @@ app.listen(process.env.PORT || 3001, function () {
     console.log("Running");
 });
 
-// app.get("/", (req, res) => {
-//     res.sendFile("../src/index.html");
-// });
+app.get("/", (req, res) => {
+    res.sendFile("../build/index.html");
+});

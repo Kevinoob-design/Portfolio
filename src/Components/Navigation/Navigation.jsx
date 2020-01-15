@@ -85,24 +85,24 @@ function Nav(){
             </Link>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Link className="nav__item" to="/#about">
+            <a className="nav__item" href="/#about">
               About
-            </Link>
+            </a>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Link className="nav__item" to="/#work">
+            <a className="nav__item" href="/#work">
               Work
-            </Link>
+            </a>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Link className="nav__item" to="/#PerpExp">
+            <a className="nav__item" href="/#PerpExp">
               Experience
-            </Link>
+            </a>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Link className="nav__item" to="#footer">
+            <a className="nav__item" href="#footer">
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>
