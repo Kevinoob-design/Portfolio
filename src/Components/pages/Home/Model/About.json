@@ -5,7 +5,8 @@
             "url": "https://redux.js.org/img/redux.svg",
             "alt": "dummie img 1"
         },
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "color": "border-red-500"
     },
     {
         "title": "PORTFOLIO",
@@ -13,7 +14,8 @@
             "url": "https://redux.js.org/img/redux.svg",
             "alt": "dummie img 1"
         },
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "color": "border-yellow-500"
     },
     {
         "title": "PROJECTS",
@@ -21,7 +23,8 @@
             "url": "https://redux.js.org/img/redux.svg",
             "alt": "dummie img 1"
         },
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "color": "border-green-500"
     },
     {
         "title": "PHOTOGRAPHY",
@@ -29,6 +32,7 @@
             "url": "https://redux.js.org/img/redux.svg",
             "alt": "dummie img 1"
         },
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "color": "border-purple-500"
     }
 ]
