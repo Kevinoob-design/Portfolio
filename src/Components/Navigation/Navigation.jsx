@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Link, withRouter } from "react-router-dom";
 
 function Nav() {
+
   const [menuCollapse, setMenuCollapse] = useState("");
 
   const [animate, setAnimation] = useState(() => {
@@ -57,7 +58,7 @@ function Nav() {
   
 
   return (
-    <nav id="navBar" className={"shadow-2xl ud-nav top-0 right-0 p-1 fixed bg-gray-900 w-full md:h-auto z-50 " + menuCollapse}>
+    <nav id="navBar" className={" ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse}>
       <div className="inline-block md:hidden pt-4">
         <button
           id="ham"

@@ -4,15 +4,6 @@
 
 @media only screen and (min-width: 900px){
 
-    /* .ud-nav {
-    transform: translate3d(0,2rem,0);
-    transition: transform 125ms cubic-bezier(.4,.25,.3,1);
-    }
-
-    .nav--inset {
-        transform: translateZ(0);
-    } */
-
     .ud-nav {
         animation: moveForward 0.2s ease-in-out;
         padding-top: 2rem;
@@ -146,7 +137,7 @@
         }
     }
 
-        @keyframes fadeInUp {
+    @keyframes fadeInUp {
         from {
             opacity: 0;
             transform: translate3d(0, 5%, 0);
@@ -156,4 +147,5 @@
             opacity: 1;
             transform: translate3d(0, 0, 0);
         }
+        
     }
