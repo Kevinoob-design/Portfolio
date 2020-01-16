@@ -13,8 +13,8 @@ const Form = (props) => {
     }
 
     return ( 
-        <div className="h-full flex items-center">
-            <div className="mx-auto align-middle max-w-lg bg-gray-800 rounded md:p-10 p-5 text-center">
+        <div className="pt-32">
+            <div className="mx-auto max-w-lg bg-gray-800 rounded md:p-10 p-5 text-center">
                 <h1 className="text-2xl">File a form!</h1>
                 <form action="/api/contact" method="post">
                     <input name="Subject" autocomplete="off" required id="Subject" className="rounded bg-gray-900 shadow block mx-auto my-3 mx-1 p-1" placeholder="Just this subject..." type="text"/>

@@ -31,7 +31,6 @@
         to {
             padding-top: 0rem;
         }
-
     }
 
     @keyframes moveForward {
@@ -92,6 +91,12 @@
 .menuCollapseUp {
     animation: slideUp 0.5s ease-in-out;
     height: 3rem;
+}
+
+.aboutCard:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+    /* transform: translate(3em,0); */
 }
 
 

@@ -11,6 +11,7 @@ function Presentation(){
     let be = ["developer", "student"];
 
     return (
+      <div className="p-3 presentationContainer">
       <div 
         className=
           "flex w-full headerContainer mx-auto md:max-w-6xl items-center fadeInUp animated fast visible"
@@ -42,6 +43,7 @@ function Presentation(){
             sit et tempore, quidem quas iure quae autem veritatis esse?
           </p>
         </div>
+      </div>
       </div>
     );
 }
