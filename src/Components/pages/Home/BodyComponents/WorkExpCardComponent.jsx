@@ -4,13 +4,13 @@ import React from "react";
 
 function  WorkCard(props){
     return(
-        <div className="inline-block workCard bg-gray-800 text-center mt-5 p-2 mx-1">
-            <div className="text-2xl border-2 bg-black"><p>{props.params.Position}</p></div>
+        <div className="inline-block workCard mt-5 p-2 mx-1 text-center shadow-2xl rounded border-t-4 border-blue-600">
+            <div className="text-2xl shadow-inner rounded"><b>{props.params.Position}</b></div>
             
             <div className="my-3"><p>{props.params.companyName}</p></div>
             <div className="my-3"><p>{props.params.address}</p></div>
 
-            <div className="my-5 text-left resp">
+            <div className="my-5 resp">
                 {props.params.responsabilities.map(element => { 
                     return <ul className="mb-3"><li>-{element.responsabilitie}</li></ul>
                     })}

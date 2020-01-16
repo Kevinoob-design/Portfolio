@@ -12,14 +12,16 @@ function PerExp(){
     return (
         <div id="PerpExp">
             <div className="pb-5">
-                <div className="md:w-1/2 w-auto text-3xl text-center border-4 mx-auto">PERSONAL EXPERIENCE</div>
+                <div className="md:w-1/2 w-auto text-3xl text-center shadow-xl rounded mx-auto"><b>PERSONAL EXPERIENCE</b></div>
 
-                <div className="mb-5">
-                    <Slider autoplaySpeed={5000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
-                        {perExpModel.map(element => {
-                            return (<PerExpCard params={element}/>);
-                        })}
-                    </Slider>
+                <div className=" shadow-2xl rounded p-5">
+                    <div className="mb-5 my-5">
+                        <Slider autoplaySpeed={5000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
+                            {perExpModel.map(element => {
+                                return (<PerExpCard params={element}/>);
+                            })}
+                        </Slider>
+                    </div>
                 </div>
             </div>
         </div>

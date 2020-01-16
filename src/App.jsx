@@ -18,7 +18,9 @@ function App(){
             <Nav />
             <Route exact path="/" component={Home} />
             <Route path="/Form" component={Form} />
-            <Footer />
+            <div className="bottomTheme">
+                <Footer />
+            </div>
         </div>
     </BrowserRouter>);
 }

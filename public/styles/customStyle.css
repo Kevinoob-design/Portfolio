@@ -1,7 +1,32 @@
-body {
-    font-family: 'Source Serif Pro',
-        serif;
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFFFFF; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2d3748; 
+  }
 
 .headerContainer {
     height: 600px;
@@ -85,5 +110,8 @@ body {
     .testimony{
         height: auto;
         padding-top: 0%;
+    }
+    .presentationContainer{
+        /* height: 100vh; */
     }
 }

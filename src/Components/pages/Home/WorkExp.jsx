@@ -8,7 +8,7 @@ function WorkExp() {
 
     return (
         <div id="work" className="pb-5">
-            <div className="md:w-1/2 w-auto text-3xl text-center border-4 mx-auto">WORK HISTORY</div>
+            <div className="md:w-1/2 w-auto text-3xl text-center shadow-xl rounded mx-auto"><b>WORK HISTORY</b></div>
 
             {WorkModel.map(element => {
                 return (<WorkCard params={element}/>);

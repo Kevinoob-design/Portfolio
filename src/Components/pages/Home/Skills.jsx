@@ -11,17 +11,17 @@ import "slick-carousel/slick/slick-theme.css";
 function Skills(){
 
     return (
-        <div id="skills" className="pb-5">
-            <div className="md:w-1/2 w-auto text-2xl text-center mx-auto underline">SKILLS</div>
+        <div id="skills" className="pb-5 my-5">
+            <div className="md:w-1/2 w-auto text-2xl text-center mx-auto shadow-inner rounded "><b>SKILLS</b></div>
 
-            <div className="pb-5">
-                <Slider autoplaySpeed={5000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
-
-                    {chartModel.map(element => {
-                        return (<Chart params={element}/>);
-                    })}
-
-            </Slider>
+            <div className=" shadow-2xl rounded p-5">
+                <div className="pb-5">
+                    <Slider autoplaySpeed={5000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
+                        {chartModel.map(element => {
+                            return (<Chart params={element}/>);
+                        })}
+                </Slider>
+                </div>
             </div>
         </div>
     )

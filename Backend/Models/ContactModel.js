@@ -18,7 +18,8 @@ const ContacttSchema = new Schema({
         required: true
     },
     AditionanContactInfo:{
-        type: [{}],
+        type: String,
+        Number: Number,
         required: false
     },
     Subject: {

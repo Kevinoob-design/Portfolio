@@ -22,8 +22,8 @@ function About(){
 
     return (
     <div id="about" className="pt-5">
-        <div className="md:w-1/2 w-auto text-3xl text-center border-4 mx-auto">
-            ABOUT
+        <div className="md:w-1/2 w-auto text-3xl text-center shadow-2xl rounded mx-auto">
+            <b>ABOUT</b>
         </div>
 
         <div className="">

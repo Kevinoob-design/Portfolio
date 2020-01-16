@@ -25,20 +25,22 @@ function Nav() {
 
   function handleMenuCollapse() {
 
-    document.getElementById("body").classList.toggle("overflow-hidden");
-    document.getElementById("ham").classList.toggle("is-active");
+    if (window.innerWidth < 768){
+      document.getElementById("body").classList.toggle("overflow-hidden");
+      document.getElementById("ham").classList.toggle("is-active");
 
-    setMenuCollapse(prev => {
-      if (prev === "menuCollapse") {
-        setAnimation("fadeOutUp animated faster");
-        setTimeout(() => { setHidden("hidden"); }, 500);
-        return "menuCollapseUp";
-      } else {
-        setAnimation("fadeInDown animated fast");
-        setHidden("visible");
-        return "menuCollapse";
-      }
-    });
+      setMenuCollapse(prev => {
+        if (prev === "menuCollapse") {
+          setAnimation("fadeOutUp animated faster");
+          setTimeout(() => { setHidden("hidden"); }, 500);
+          return "menuCollapseUp";
+        } else {
+          setAnimation("fadeInDown animated fast");
+          setHidden("visible");
+          return "menuCollapse";
+        }
+      });
+    }
   }
 
   window.onscroll = () => {
@@ -58,7 +60,7 @@ function Nav() {
   
 
   return (
-    <nav id="navBar" className={" ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse}>
+    <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse}>
       <div className="inline-block md:hidden pt-4">
         <button
           id="ham"
@@ -73,27 +75,27 @@ function Nav() {
       <ul 
       className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
         <li className={animate + " text-2xl p-5 fast"}>
-          <Link className="nav__item" to="/">
+          <Link onClick={handleMenuCollapse} className="nav__item" to="/">
             Home
           </Link>
         </li>
         <li className={animate + " text-2xl p-5 fast"}>
-          <a className="nav__item" href="/#about">
+          <a onClick={handleMenuCollapse} className="nav__item" href="/#about">
             About
           </a>
         </li>
         <li className={animate + " text-2xl p-5 fast"}>
-          <a className="nav__item" href="/#work">
+          <a onClick={handleMenuCollapse} className="nav__item" href="/#work">
             Work
             </a>
         </li>
         <li className={animate + " text-2xl p-5 fast"}>
-          <a className="nav__item" href="/#PerpExp">
+          <a onClick={handleMenuCollapse} className="nav__item" href="/#PerpExp">
             Experience
             </a>
         </li>
         <li className={animate + " text-2xl p-5 fast"}>
-          <a className="nav__item" href="#footer">
+          <a onClick={handleMenuCollapse} className="nav__item" href="#footer">
             Contact
             </a>
         </li>
