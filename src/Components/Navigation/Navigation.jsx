@@ -54,6 +54,8 @@ function Nav() {
     }
   }
 
+  
+
   return (
     <nav id="navBar" className={"shadow-2xl ud-nav top-0 right-0 p-1 fixed bg-gray-900 w-full md:h-auto z-50 " + menuCollapse}>
       <div className="inline-block md:hidden pt-4">

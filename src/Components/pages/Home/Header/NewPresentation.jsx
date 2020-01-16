@@ -1,6 +1,6 @@
 //jshint esversion:6 
 
-import React from "react";
+import React, {useEffect, useState} from "react";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -9,15 +9,22 @@ import "slick-carousel/slick/slick-theme.css";
 function Presentation(){
 
     let be = ["developer", "student"];
+    let [animation, setAnimation] = useState("hidden");
+
+    useEffect(() => {
+      setInterval(() => {
+        setAnimation("fadeInUp animated fast visible")
+      }, 1000);
+    }, []);
 
     return (
       <div className="p-3 presentationContainer">
       <div 
         className=
-          "flex w-full headerContainer mx-auto md:max-w-6xl items-center fadeInUp animated fast visible"
+          "flex w-full headerContainer mx-auto md:max-w-6xl items-center "
       >
-        <div className="p-5 text-2xl text-center fadeInDown">
-          <p className="">Hi, my name is</p>
+          <div className={"p-5 text-2xl text-center fadeInDown " + animation}>
+          <span className="">Hi, my name is</span>
           <h1 className="text-4xl md:text-6xl">Hector Morales</h1>
           <div className="mb-5 flex max-w-sm mx-auto items-center">
             <p className="w-1/2 text-right mr-1">I'm a </p>
