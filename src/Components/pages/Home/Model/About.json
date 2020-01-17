@@ -6,7 +6,8 @@
             "alt": "dummie img 1"
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "color": "border-red-500"
+        "color": "border-red-500",
+        "animation": "fade-right"
     },
     {
         "title": "PORTFOLIO",
@@ -15,7 +16,8 @@
             "alt": "dummie img 1"
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "color": "border-yellow-500"
+        "color": "border-yellow-500",
+        "animation": "fade-up"
     },
     {
         "title": "PROJECTS",
@@ -24,7 +26,8 @@
             "alt": "dummie img 1"
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "color": "border-green-500"
+        "color": "border-green-500",
+        "animation": "fade-down"
     },
     {
         "title": "PHOTOGRAPHY",
@@ -33,6 +36,7 @@
             "alt": "dummie img 1"
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "color": "border-purple-500"
+        "color": "border-purple-500",
+        "animation": "fade-left"
     }
 ]

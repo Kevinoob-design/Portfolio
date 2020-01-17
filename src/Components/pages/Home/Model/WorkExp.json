@@ -17,7 +17,8 @@
             {
                 "responsabilitie": "Track, document and retrieve information in call tracking database."
             }
-        ]
+        ],
+        "animation": "fade-right"
     },
 
     {
@@ -38,6 +39,7 @@
             {
                 "responsabilitie": "Enforce all rules and regulations politely to prevent accidents."
             }
-        ]
+        ],
+        "animation": "fade-left"
     }
 ]

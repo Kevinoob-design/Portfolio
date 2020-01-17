@@ -96,6 +96,16 @@
 .aboutCard:hover{
     transform: scale(1.03);
     transition: 0.2s ease-in-out;
+    /* animation: aboutCardColorAnimate 0.5s ease-in-out; */
+}
+
+@keyframes aboutCardColorAnimate{
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color: red;
+    }
 }
 
 

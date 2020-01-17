@@ -3,6 +3,9 @@
 import React, { useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
+import AOS from 'aos';
+import "aos/dist/aos.css"
+
 import Nav from "./Components/Navigation/Navigation";
 
 import Home from "./Components/pages/Home/Body";
@@ -11,6 +14,10 @@ import Form from "./Components/pages/Form/Form";
 import Footer from "./Components/Footer/Footer";
 
 function App(){
+
+    AOS.init({
+        disable: window.innerWidth < 768 ? "mobile" : false
+    });
 
     return (
     <BrowserRouter>

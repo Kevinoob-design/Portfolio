@@ -13,13 +13,13 @@ function Body(){
     return (
         <div>
             <Header />
-            <div className="w-full md:max-w-6xl mx-auto">
+            <div className="w-full md:max-w-6xl mx-auto p-2 md:p-0">
                 <Testimonials/>
                 <About/>
                 <WorkExp/>
                 <PerpExp/>
-                <Contact/>
             </div>
+            <Contact />
         </div>);
 }
 export default Body;

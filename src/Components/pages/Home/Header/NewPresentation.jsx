@@ -9,18 +9,11 @@ import "slick-carousel/slick/slick-theme.css";
 function Presentation(){
 
     let be = ["developer", "student"];
-    let [animation, setAnimation] = useState("hidden");
-
-    useEffect(() => {
-      setInterval(() => {
-        setAnimation("fadeInUp animated fast visible")
-      }, 1000);
-    }, []);
 
     return (
       <div className="p-3 presentationContainer shadow-2xl">
         <div className="flex headerContainer mx-auto items-center max-w-6xl">
-          <div className={"p-5 text-2xl text-center fadeInDown " + animation}>
+          <div className="p-5 text-2xl text-center fadeInDown" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="600">
             <span className="">Hi, my name is</span>
             <h1 className="text-4xl md:text-6xl">Hector Morales</h1>
             <div className="mb-5 flex max-w-sm mx-auto items-center">

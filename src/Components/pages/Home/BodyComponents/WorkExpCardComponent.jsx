@@ -4,7 +4,7 @@ import React from "react";
 
 function  WorkCard(props){
     return(
-        <div className="inline-block workCard mt-5 p-2 mx-1 text-center shadow-2xl rounded border-t-4 border-blue-600">
+        <div className="inline-block workCard mt-5 p-2 mx-1 text-center shadow-2xl rounded border-t-4 border-blue-600" data-aos={props.params.animation} data-aos-duration="600">
             <div className="text-2xl shadow-inner rounded"><b>{props.params.Position}</b></div>
             
             <div className="my-3"><p>{props.params.companyName}</p></div>

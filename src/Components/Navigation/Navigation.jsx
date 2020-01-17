@@ -57,10 +57,8 @@ function Nav() {
     }
   }
 
-  
-
   return (
-    <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse}>
+    <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse} data-aos="fade-down" data-aos-delay="1000" data-aos-duration="600">
       <div className="inline-block md:hidden pt-4">
         <button
           id="ham"
@@ -95,9 +93,9 @@ function Nav() {
             </a>
         </li>
         <li className={animate + " text-2xl p-5 fast"}>
-          <a onClick={handleMenuCollapse} className="nav__item" href="#footer">
+          <Link onClick={handleMenuCollapse} className="nav__item" to="/Form">
             Contact
-            </a>
+          </Link>
         </li>
       </ul>
     </nav>

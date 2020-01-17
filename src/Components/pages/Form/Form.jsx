@@ -14,12 +14,12 @@ const Form = (props) => {
     }
 
     return ( 
-        <div className="pt-32">
+        <div className="pt-32 px-4">
             <div className="mx-auto max-w-lg shadow-2xl rounded md:p-10 p-5 text-center border-t-4 border-blue-600">
-                <h1 className="text-2xl">File a form!</h1>
+                <h1 className="text-2xl">Feel free to ask anything.</h1>
                 <form action="/api/contact" method="post">
 
-                    <input name="Subject" autocomplete="off" required id="Subject" className="rounded bg-gray-800 shadow-2xl block mx-auto my-3 mx-1 p-1" placeholder="Just this subject..." type="text"/>
+                    <input name="Subject" autocomplete="off" required id="Subject" className="rounded bg-gray-800 shadow-2xl block mx-auto my-3 mx-1 p-1" placeholder="Just a subject..." type="text"/>
                     <input name="Name" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 md:w-auto w-1/2" placeholder="Josh" type="text"/>
                     <input name="LastName" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 md:w-auto w-1/2" placeholder="Nichols" type="text" />
                     <input name="ContactEmail" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 block mx-auto w-2/3" placeholder="email@examble.com" type="email" /> 
@@ -34,7 +34,7 @@ const Form = (props) => {
                     <button className="w-1/3 p-2 bg-yellow-800 shadow-2xl mx-5" onClick={cancelForm}>Cancel</button>
                     <button className="w-1/3 p-2 bg-blue-800 shadow-2xl mx-5" onClick={submitForm}>Submit</button>
                 </form>
-                <p className="text-sm mt-5">This information is meant to get in contact with you ONLY!. I will not use it for adds nor subscribe you to any newslatter.</p>
+                <p className="text-sm mt-5">This information is meant to get in contact with you ONLY!. I will not use it for advertising nor subscribe you to a newslatter.</p>
             </div>
         </div>
      );
