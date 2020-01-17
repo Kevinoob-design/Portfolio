@@ -58,47 +58,49 @@ function Nav() {
   }
 
   return (
-    <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse} data-aos="fade-down" data-aos-delay="1000" data-aos-duration="600">
-      <div className="inline-block md:hidden pt-4">
-        <button
-          id="ham"
-          onClick={handleMenuCollapse}
-          className="border-gray-900 focus:outline-none ml-2 block hamburger hamburger--collapse-r">
-          <span className="hamburger-box">
-            <span className="hamburger-inner"></span>
-          </span>
-        </button>
-      </div>
+    <div data-aos="fade-down" data-aos-delay="1000" data-aos-duration="600"> 
+      <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse}>
+        <div className="inline-block md:hidden pt-4">
+          <button
+            id="ham"
+            onClick={handleMenuCollapse}
+            className="border-gray-900 focus:outline-none ml-2 block hamburger hamburger--collapse-r">
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
 
-      <ul 
-      className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
-        <li className={animate + " text-2xl p-5 fast"}>
-          <Link onClick={handleMenuCollapse} className="nav__item" to="/">
-            Home
-          </Link>
-        </li>
-        <li className={animate + " text-2xl p-5 fast"}>
-          <a onClick={handleMenuCollapse} className="nav__item" href="/#about">
-            About
-          </a>
-        </li>
-        <li className={animate + " text-2xl p-5 fast"}>
-          <a onClick={handleMenuCollapse} className="nav__item" href="/#work">
-            Work
+        <ul 
+        className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
+          <li className={animate + " text-2xl p-5 fast"}>
+            <Link onClick={handleMenuCollapse} className="nav__item" to="/">
+              Home
+            </Link>
+          </li>
+          <li className={animate + " text-2xl p-5 fast"}>
+            <a onClick={handleMenuCollapse} className="nav__item" href="/#about">
+              About
             </a>
-        </li>
-        <li className={animate + " text-2xl p-5 fast"}>
-          <a onClick={handleMenuCollapse} className="nav__item" href="/#PerpExp">
-            Experience
-            </a>
-        </li>
-        <li className={animate + " text-2xl p-5 fast"}>
-          <Link onClick={handleMenuCollapse} className="nav__item" to="/Form">
-            Contact
-          </Link>
-        </li>
-      </ul>
-    </nav>
+          </li>
+          <li className={animate + " text-2xl p-5 fast"}>
+            <a onClick={handleMenuCollapse} className="nav__item" href="/#work">
+              Work
+              </a>
+          </li>
+          <li className={animate + " text-2xl p-5 fast"}>
+            <a onClick={handleMenuCollapse} className="nav__item" href="/#PerpExp">
+              Experience
+              </a>
+          </li>
+          <li className={animate + " text-2xl p-5 fast"}>
+            <Link onClick={handleMenuCollapse} className="nav__item" to="/Form">
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 export default withRouter(Nav);

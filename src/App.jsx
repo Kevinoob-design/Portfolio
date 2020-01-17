@@ -15,9 +15,7 @@ import Footer from "./Components/Footer/Footer";
 
 function App(){
 
-    AOS.init({
-        disable: window.innerWidth < 768 ? "mobile" : false
-    });
+    AOS.init();
 
     return (
     <BrowserRouter>
