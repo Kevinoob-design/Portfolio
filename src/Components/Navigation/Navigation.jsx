@@ -58,7 +58,7 @@ function Nav() {
   }
 
   return (
-    <div data-aos="fade-down" data-aos-delay="1000" data-aos-duration="600"> 
+    <div data-aos="fade-down" data-aos-delay="3000" data-aos-duration="600"> 
       <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse}>
         <div className="inline-block md:hidden pt-4">
           <button
