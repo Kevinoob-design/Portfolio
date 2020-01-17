@@ -31,7 +31,6 @@ function About(){
                 return <AboutCard params={element} />
             })}
         </div>
-
         <Skills/>
     </div>);
 }
