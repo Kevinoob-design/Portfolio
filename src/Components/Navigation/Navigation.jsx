@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Link, withRouter } from "react-router-dom";
+import { Link as Scroll } from "react-scroll";
 
 function Nav() {
 
@@ -79,19 +80,19 @@ function Nav() {
             </Link>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <a onClick={handleMenuCollapse} className="nav__item" href="/#about">
-              About
+            <a className="nav__item" href="/#about">
+              <Scroll onClick={handleMenuCollapse} activeClass="active" to="about" spy={true} smooth={true} offset={-75} duration={500}>About</Scroll>
             </a>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
             <a onClick={handleMenuCollapse} className="nav__item" href="/#work">
-              Work
-              </a>
+              <Scroll onClick={handleMenuCollapse} activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={500}>Work</Scroll>
+            </a>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
             <a onClick={handleMenuCollapse} className="nav__item" href="/#PerpExp">
-              Experience
-              </a>
+              <Scroll onClick={handleMenuCollapse} activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={500}>Experience</Scroll>
+            </a>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
             <Link onClick={handleMenuCollapse} className="nav__item" to="/Form">

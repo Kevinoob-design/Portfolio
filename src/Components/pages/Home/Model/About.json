@@ -37,6 +37,7 @@
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "color": "border-purple-500",
-        "animation": "fade-left"
+        "animation": "fade-left",
+        "link": "/Photo"
     }
 ]
