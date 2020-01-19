@@ -29,7 +29,7 @@ function App(){
 
     return (
     <BrowserRouter>
-        <div className="w-full h-screen text-white">
+        <div className="w-full text-white">
             <Nav />
             <Route exact path="/" component={Home} />
             <Route path="/Form" component={Form} />
