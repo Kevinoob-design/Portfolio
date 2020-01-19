@@ -20,7 +20,7 @@ const ShowCase = () => {
     };
 
     return ( 
-        <div className="text-center shadow-2xl mx-3 md:mx-40">
+        <div className="text-center shadow-2xl mx-3 md:mx-40 h-auto">
             <div id="Galery" className="px-1 pt-12 md:p-32">
                     {photos.map((element, index) => { return <PhotoContainer params={element} onClick={openLightbox} />  } )}
                 <ModalGateway>
