@@ -12,7 +12,7 @@
     .nav--inset {
         animation: moveBack 0.2s ease-in-out;
         animation-fill-mode: forwards;
-    }
+    }a
 
 
     @keyframes moveBack {
@@ -93,7 +93,7 @@
     height: 3rem;
 }
 
-.aboutCard:hover{
+.aboutCard:hover, #PhotoContainer:hover{
     transform: scale(1.03);
     transition: 0.2s ease-in-out;
     /* animation: aboutCardColorAnimate 0.5s ease-in-out; */

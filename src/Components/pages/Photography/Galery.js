@@ -1,10 +1,10 @@
-function photos() {
+function getPhotos() {
 
-    let photos = [];
+    let phot = [];
 
     for (let index = 1; index < 66; index++) {
-        photos.push("./Galery/Phot-" + index + ".JPEG");
+        phot.push({src: "./Galery/Phot-" + index + ".JPEG"});
     }
-    return photos;
+    return phot;
 }
-export default photos();
+export const photos = getPhotos();

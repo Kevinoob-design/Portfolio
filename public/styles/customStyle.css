@@ -2,6 +2,10 @@
     outline: none;
 }
 
+img{
+    display: inline;
+}
+
 body {
     font-family: 'Source Serif Pro', serif;
     background-attachment: fixed;
@@ -19,7 +23,10 @@ body {
 }
 
 #Galery {
-    column-count: 4;
+    column-count: 6;
+}
+#PhotoContainer:hover {
+    cursor: pointer;
 }
 
 ::-webkit-scrollbar {
