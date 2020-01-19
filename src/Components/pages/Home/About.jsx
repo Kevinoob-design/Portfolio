@@ -26,7 +26,7 @@ function About(){
             <b>ABOUT</b>
         </div>
 
-            <div className="px-auto flex flex-wrap justify-center">
+        <div className="px-auto flex flex-wrap justify-center">
             {aboutModel.map(element => {
                 return <AboutCard params={element} />
             })}

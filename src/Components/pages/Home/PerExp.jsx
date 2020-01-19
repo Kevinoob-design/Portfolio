@@ -14,7 +14,7 @@ function PerExp(){
             <div className="pb-5">
                 <div className="md:w-1/2 w-auto text-3xl text-center shadow-xl rounded mx-auto"><b>PERSONAL EXPERIENCE</b></div>
 
-                <div className=" shadow-2xl rounded p-5" data-aos="fade-down" data-aos-delay="300" data-aos-duration="600">
+                <div className=" shadow-2xl rounded p-5 mouseMove" data-aos="fade-down" data-aos-delay="300" data-aos-duration="600">
                     <div className="mb-5 my-5">
                         <Slider autoplaySpeed={5000} silideToShow={1} slideToScroll={1} infinite={true} dots={true} arrows={false} autoplay>
                             {perExpModel.map(element => {

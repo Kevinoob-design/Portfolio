@@ -11,7 +11,7 @@ import Contact from "./Contact";
 function Body(){
 
     return (
-        <div>
+        <div id="Body">
             <Header />
             <div className="w-full md:max-w-6xl mx-auto p-2 md:p-0">
                 <Testimonials/>

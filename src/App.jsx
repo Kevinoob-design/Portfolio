@@ -3,6 +3,7 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
+import Rellax from "rellax";
 import AOS from 'aos';
 import "aos/dist/aos.css"
 
@@ -17,6 +18,14 @@ import Footer from "./Components/Footer/Footer";
 function App(){
 
     AOS.init();
+    new Rellax('.rellax', {
+        speed: -2,
+        center: false,
+        wrapper: null,
+        round: true,
+        vertical: true,
+        horizontal: false
+    });
 
     return (
     <BrowserRouter>
