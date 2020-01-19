@@ -12,7 +12,7 @@
     .nav--inset {
         animation: moveBack 0.2s ease-in-out;
         animation-fill-mode: forwards;
-    }a
+    }
 
 
     @keyframes moveBack {

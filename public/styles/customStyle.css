@@ -23,8 +23,13 @@ body {
 }
 
 #Galery {
-    column-count: 6;
+    column-count: 4;
 }
+
+#PhotoContainer{
+    transition: 0.2s ease-in-out;
+}
+
 #PhotoContainer:hover {
     cursor: pointer;
 }
