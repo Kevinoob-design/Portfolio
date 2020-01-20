@@ -27,7 +27,8 @@
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "color": "border-green-500",
-        "animation": "fade-down"
+        "animation": "fade-down",
+        "link": "/Projects"
     },
     {
         "title": "PHOTOGRAPHY",

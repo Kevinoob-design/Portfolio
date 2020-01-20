@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Link, withRouter } from "react-router-dom";
-import { Link as Scroll } from "react-scroll";
+import { Link as Scroll, animateScroll } from "react-scroll";
 
 function Nav() {
 

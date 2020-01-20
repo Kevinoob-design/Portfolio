@@ -93,7 +93,7 @@
     height: 3rem;
 }
 
-.aboutCard:hover, #PhotoContainer:hover{
+.aboutCard:hover, #PhotoContainer:hover, button:hover{
     transform: scale(1.03);
     transition: 0.2s ease-in-out;
     /* animation: aboutCardColorAnimate 0.5s ease-in-out; */
