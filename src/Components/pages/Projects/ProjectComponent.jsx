@@ -27,5 +27,4 @@ const ProjectComponent = (props) => {
         </div>
     );
 }
-
 export default ProjectComponent;

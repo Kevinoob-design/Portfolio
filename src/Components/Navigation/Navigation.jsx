@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Link, withRouter } from "react-router-dom";
-import { Link as Scroll, animateScroll } from "react-scroll";
+import { Link as Scroll } from "react-scroll";
 
 function Nav() {
 
@@ -72,27 +72,32 @@ function Nav() {
           </button>
         </div>
 
-        <ul 
-        className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
+        <ul className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Link onClick={handleMenuCollapse} className="nav__item" to="/">
-              Home
+            <Scroll onClick={handleMenuCollapse} activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={500}>
+              <Link onClick={handleMenuCollapse} className="nav__item" to="/">Home</Link>
+            </Scroll>
+          </li>
+          <li className={animate + " text-2xl p-5 fast"}>
+            <Scroll onClick={handleMenuCollapse} activeClass="active" to="about" spy={true} smooth={true} offset={-85} duration={500}>
+              <Link onClick={handleMenuCollapse} className="nav__item" to="/#about">
+                  About
+              </Link>
+            </Scroll>
+          </li>
+          <li className={animate + " text-2xl p-5 fast"}>
+            <Scroll onClick={handleMenuCollapse} activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={500}>
+            <Link onClick={handleMenuCollapse} className="nav__item" to="/#work">
+              Work
             </Link>
+            </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <a className="nav__item" href="/#about">
-              <Scroll onClick={handleMenuCollapse} activeClass="active" to="about" spy={true} smooth={true} offset={-75} duration={500}>About</Scroll>
-            </a>
-          </li>
-          <li className={animate + " text-2xl p-5 fast"}>
-            <a onClick={handleMenuCollapse} className="nav__item" href="/#work">
-              <Scroll onClick={handleMenuCollapse} activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={500}>Work</Scroll>
-            </a>
-          </li>
-          <li className={animate + " text-2xl p-5 fast"}>
-            <a onClick={handleMenuCollapse} className="nav__item" href="/#PerpExp">
-              <Scroll onClick={handleMenuCollapse} activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={500}>Experience</Scroll>
-            </a>
+            <Scroll onClick={handleMenuCollapse} activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={500}>
+              <Link onClick={handleMenuCollapse} className="nav__item" to="/#PerpExp">
+                Experience
+            </Link>
+            </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
             <Link onClick={handleMenuCollapse} className="nav__item" to="/Form">
