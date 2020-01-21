@@ -1,7 +1,7 @@
 //jshint esversion:6
 
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import ScrollMemory from 'react-router-scroll-memory';
 
 import Rellax from "rellax";
@@ -50,13 +50,16 @@ function App(){
             <div className="w-full text-white">
                 <Nav />
                 <ScrollMemory />
+                <div className="min-h-screen">
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path="/Form" component={Form} />
                     <Route path="/Gallery" component={ShowCase}/>
                     <Route path="/Projects" component={Projects} />
-                    <Route component={NotFound} />
+                    <Route path="/404" exact={true} component={NotFound} />
+                    <Redirect to="/404" />
                 </Switch>
+                </div>
                 <div className="bottomTheme">
                     <Footer />
                 </div>
