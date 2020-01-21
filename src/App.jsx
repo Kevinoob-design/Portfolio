@@ -33,7 +33,7 @@ const Projects = asyncComponent(() =>
     import('./Components/pages/Projects/Projects').then(module => module.default)
 )
 
-function App(){
+function App() {
 
     AOS.init();
     new Rellax('.rellax', {
@@ -51,14 +51,13 @@ function App(){
                 <Nav />
                 <ScrollMemory />
                 <div className="min-h-screen">
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/Form" component={Form} />
-                    <Route path="/Gallery" component={ShowCase}/>
-                    <Route path="/Projects" component={Projects} />
-                    <Route path="/404" exact={true} component={NotFound} />
-                    <Redirect to="/404" />
-                </Switch>
+                    <Switch>
+                        <Route exact path="/" component={Home} />
+                        <Route exact path="/Form" component={Form} />
+                        <Route exact path="/Gallery" component={ShowCase} />
+                        <Route exact path="/Projects" component={Projects} />
+                        <Route component={NotFound} />
+                    </Switch>
                 </div>
                 <div className="bottomTheme">
                     <Footer />

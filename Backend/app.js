@@ -29,3 +29,7 @@ app.listen(process.env.PORT || 3001, function () {
 app.get("/", (req, res) => {
     res.sendFile("../build/index.html");
 });
+
+app.get("*", (req, res) => {
+    res.redirect('/');
+})
