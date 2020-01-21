@@ -14,7 +14,21 @@
         animation-fill-mode: forwards;
     }
 
+    .NotFound{
+        animation: blurBack 1s ease-in-out;
+        filter: blur(100px);
+        animation-fill-mode: forwards;
+    }
 
+    @keyframes blurBack {
+        from {
+            filter: blur(100px);
+        }
+
+        to {
+            filter: blur(0px);
+        }
+    }
     @keyframes moveBack {
         from {
             padding-top: 2rem;

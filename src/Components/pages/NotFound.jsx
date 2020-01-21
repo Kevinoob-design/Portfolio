@@ -7,7 +7,7 @@ const NotFound = (props) => {
     }
 
     return ( 
-        <div className="h-screen md:p-56 py-24 px-5">
+        <div className="h-screen md:p-56 py-24 px-5 NotFound">
             <div>
                 <p  className="text-4xl md:text-6xl underline ">404</p>
                 <h1 className="text-4xl md:text-6xl">This page was not found —</h1>
