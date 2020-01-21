@@ -3,7 +3,11 @@
     background: #000046;
     background: linear-gradient(to right, #1CB5E0, #000046);
     
-    /* filter: blur(1px); */
+}
+
+.ProjectsContainer{
+    /* background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%); */
+    background: linear-gradient(to right bottom, #2f3441 50%, #1a202c 50%);
 }
 
 .testimonialTitle1{

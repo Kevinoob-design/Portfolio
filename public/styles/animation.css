@@ -14,21 +14,6 @@
         animation-fill-mode: forwards;
     }
 
-    .NotFound{
-        animation: blurBack 1s ease-in-out;
-        filter: blur(100px);
-        animation-fill-mode: forwards;
-    }
-
-    @keyframes blurBack {
-        from {
-            filter: blur(100px);
-        }
-
-        to {
-            filter: blur(0px);
-        }
-    }
     @keyframes moveBack {
         from {
             padding-top: 2rem;
@@ -107,11 +92,27 @@
     height: 3rem;
 }
 
-.aboutCard:hover, #PhotoContainer:hover, button:hover{
+.aboutCard:hover, #PhotoContainer:hover{
     transform: scale(1.03);
     transition: 0.2s ease-in-out;
     /* animation: aboutCardColorAnimate 0.5s ease-in-out; */
 }
+
+.NotFound{
+        animation: blurBack 1s ease-in-out;
+        filter: blur(100px);
+        animation-fill-mode: forwards;
+    }
+
+@keyframes blurBack {
+        from {
+            filter: blur(100px);
+        }
+
+        to {
+            filter: blur(0px);
+        }
+    }
 
 @keyframes aboutCardColorAnimate{
     from{
