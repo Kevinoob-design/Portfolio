@@ -8,11 +8,11 @@ const ProjectComponent = (props) => {
             <div className="w-full md:w-1/3 mr-5 h-full rounded">
                 <img src={props.params.img.url} alt="alt" />
             </div>
-            <div className="w-full md:w-1/2 p-3 text-center md:text-left">
+            <div className="w-full md:w-auto p-3 text-center md:text-left">
                 <h1 className="text-4xl mb-12 underline">{props.params.title}</h1>
                 <p>{props.params.description}</p>
 
-                <button className="mt-5 md:mt-10 w-3/4 md:w-1/4 py-2 hover:bg-blue-600 border-2 rounded shadow-2xl">
+                <button className="mt-5 md:mt-10 w-3/4 md:w-1/4  py-2 hover:bg-blue-600 border-2 rounded shadow-2xl">
                     <GoBrowser className="text-4xl inline align-top mx-1" />
                     <a className="leading-none text-left w-1/2 inline-block" href={props.params.url}><p><span className="text-xs text-gray-600">Check it on</span><br /> Website</p></a>
                 </button>

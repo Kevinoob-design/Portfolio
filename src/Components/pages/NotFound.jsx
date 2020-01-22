@@ -6,7 +6,7 @@ const NotFound = (props) => {
         props.history.push("/");
     }
 
-    return ( 
+    return (
         <div className="h-screen md:p-56 py-24 px-5 NotFound">
             <div>
                 <p  className="text-4xl md:text-6xl underline ">404</p>
