@@ -74,26 +74,26 @@ function Nav() {
 
         <ul className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll onClick={handleMenuCollapse} activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={500}>
+            <Scroll activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={500}>
               <Link onClick={handleMenuCollapse} className="nav__item" to="/">Home</Link>
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll onClick={handleMenuCollapse} activeClass="active" to="about" spy={true} smooth={true} offset={-85} duration={500}>
+            <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-85} duration={500}>
               <Link onClick={handleMenuCollapse} className="nav__item" to="/#about">
                   About
               </Link>
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll onClick={handleMenuCollapse} activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={500}>
+            <Scroll activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={500}>
             <Link onClick={handleMenuCollapse} className="nav__item" to="/#work">
               Work
             </Link>
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll onClick={handleMenuCollapse} activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={500}>
+            <Scroll activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={500}>
               <Link onClick={handleMenuCollapse} className="nav__item" to="/#PerpExp">
                 Experience
             </Link>

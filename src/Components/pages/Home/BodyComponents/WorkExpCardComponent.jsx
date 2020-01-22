@@ -17,9 +17,9 @@ function  WorkCard(props){
             </div>
 
             <div className="my-3">
-                <div className="w-1/2 text-xl inline border-2 mx-1 p-2">{props.params.date.from}</div>
+                <div className="w-1/2 text-xl inline rounded shadow-xl mx-1 p-2">{props.params.date.from}</div>
                 <span>–</span>
-                <div className="w-1/2 text-xl inline border-2 mx-1 p-2">{props.params.date.to}</div>
+                <div className="w-1/2 text-xl inline rounded shadow-xl mx-1 p-2">{props.params.date.to}</div>
             </div>
         </div>
     )
