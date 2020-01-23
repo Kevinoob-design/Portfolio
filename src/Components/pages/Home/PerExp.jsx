@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 function PerExp(){
     return (
         <div id="PerpExp">
-            <div className="pb-5">
+            <div className="pb-5 bg-gray-900">
                 <div className="md:w-1/2 w-auto text-3xl text-center shadow-xl rounded mx-auto"><b>PERSONAL EXPERIENCE</b></div>
 
                 <div className=" shadow-2xl rounded p-5 mouseMove" data-aos="fade-down" data-aos-delay="300" data-aos-duration="600">

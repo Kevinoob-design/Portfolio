@@ -33,7 +33,7 @@ function App() {
             <div className="w-full text-white">
                 <Nav />
                 <ScrollMemory />
-                <div className="min-h-screen text-xl leading-relaxed">
+                <div className="min-h-screen text-xl leading-relaxed tracking-wider">
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/Form" component={Form} />

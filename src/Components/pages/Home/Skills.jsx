@@ -12,7 +12,7 @@ function Skills(){
 
     return (
         <div id="skills" className="pb-5 my-5">
-            <div className="md:w-1/2 w-auto text-2xl text-center mx-auto shadow-inner rounded "><b>SKILLS</b></div>
+            <div className="md:w-1/2 w-auto text-2xl text-center mx-auto shadow-inner rounded bg-gray-900"><b>SKILLS</b></div>
 
             <div className=" shadow-2xl rounded p-5 mouseMove" data-aos="fade-down" data-aos-delay="300" data-aos-duration="600">
                 <div className="pb-5">

@@ -31,8 +31,8 @@ const Form = (props) => {
 
                     <NumberFormat name="phone" format="(###) ###-####" mask="_" required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 w-auto" placeholder="(800)-123-4567" type="phone" />
                     <textarea name="Details" placeholder="The reason why i'm contacting you..." required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 w-full resize-none mx-auto" resize="none" rows="10"></textarea>
-                    <button className="w-1/3 p-2 bg-yellow-800 hover:bg-yellow-900 border-2 shadow-2xl rounded mx-5" onClick={cancelForm}>Cancel</button>
-                    <button className="w-1/3 p-2 bg-blue-800 hover:bg-blue-900 rounded border-2 shadow-2xl mx-5" onClick={submitForm}>Submit</button>
+                    <button className="w-1/3 p-2 bg-yellow-800 hover:bg-yellow-900 shadow-2xl rounded mx-5" onClick={cancelForm}>Cancel</button>
+                    <button className="w-1/3 p-2 bg-blue-800 hover:bg-blue-900 rounded shadow-2xl mx-5" onClick={submitForm}>Submit</button>
                 </form>
                 <p className="text-sm mt-5">This information is meant to get in contact with you ONLY!. I will not use it for advertising nor subscribe you to a newslatter.</p>
             </div>

@@ -12,6 +12,10 @@ body {
     background-attachment: fixed;
 }
 
+.appShow{
+    /* background-image: url("https://androidwalls.net/wp-content/uploads/2015/04/Nexus%20Colorful%20Stock%20Background%20Android%20Wallpaper.jpg"); */
+}
+
 #Body{
     overflow-x:hidden;
 }
@@ -80,7 +84,7 @@ body {
 }
 
 .aboutCard {
-    width: 24%;
+    /* width: 24%; */
     transition: 0.2s ease-in-out;
 }
 

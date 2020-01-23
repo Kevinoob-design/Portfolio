@@ -4,8 +4,8 @@ import ProjectComponet from "./ProjectComponent";
 
 const Projects = () => {
     return ( 
-        <div className="pt-16 px-5 md:p-32 flex flex-wrap ProjectsContainer">
-            <div className="w-full">
+        <div className="pt-16 justify-center ProjectsContainer">
+            <div className="max-w-6xl md:p-12 lg:flex lg:flex-wrap mx-auto">
                 {ProjectModel.map(element => {
                     return <ProjectComponet params={element} />
                 })}
