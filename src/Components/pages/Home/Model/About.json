@@ -2,7 +2,7 @@
     {
         "title": "EDUCATION",
         "img": {
-            "url": "https://redux.js.org/img/redux.svg",
+            "url": "https://via.placeholder.com/450",
             "alt": "dummie img 1"
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -12,7 +12,7 @@
     {
         "title": "PORTFOLIO",
         "img": {
-            "url": "https://redux.js.org/img/redux.svg",
+            "url": "https://via.placeholder.com/450",
             "alt": "dummie img 1"
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -22,7 +22,7 @@
     {
         "title": "PROJECTS",
         "img": {
-            "url": "https://redux.js.org/img/redux.svg",
+            "url": "https://via.placeholder.com/450",
             "alt": "dummie img 1"
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -33,10 +33,10 @@
     {
         "title": "PHOTOGRAPHY",
         "img": {
-            "url": "https://redux.js.org/img/redux.svg",
+            "url": "https://via.placeholder.com/450",
             "alt": "dummie img 1"
         },
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "description": "Lorem ipsum dolor",
         "color": "border-purple-500",
         "animation": "fade-left",
         "link": "/Gallery"
