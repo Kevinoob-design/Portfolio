@@ -7,7 +7,7 @@ const SkillAvatar = (props) => {
 
     return ( 
         <div>
-            <div className={"border-4 rounded-full overflow-hidden p-1 mx-5 " + props.params.color}>
+            <div className={"border-4 border-gray-800 rounded-full overflow-hidden p-1 mx-5 " + props.params.color}>
                 <SkillIcon />
             </div>
             <div>

@@ -24,14 +24,14 @@
                 "color": "bg-blue-600"
             },
             {
-                "label": "Boostrap",
+                "label": "Bootstrap",
                 "icon": "DiBootstrap",
                 "color": "bg-indigo-900"
             },
             {
                 "label": "Tailwind",
                 "icon": "DiReact",
-                "color": "bg-blue-600"
+                "color": "bg-blue-400"
             },
             {
                 "label": "Sass",
@@ -39,9 +39,49 @@
                 "color": "bg-pink-600"
             },
             {
-                "label": "Jquery",
+                "label": "JQuery",
                 "icon": "DiJqueryLogo",
                 "color": "bg-blue-600"
+            },
+            {
+                "label": "MongoDB",
+                "icon": "DiMongodb",
+                "color": "bg-green-600"
+            },
+            {
+                "label": "SQL Server",
+                "icon": "DiMsqlServer",
+                "color": "bg-transparent"
+            },
+            {
+                "label": "NodeJS",
+                "icon": "DiNodejsSmall",
+                "color": "bg-green-600"
+            },
+            {
+                "label": "NPM",
+                "icon": "DiNpm",
+                "color": "bg-red-700"
+            },
+            {
+                "label": "Git",
+                "icon": "DiGit",
+                "color": "bg-red-600"
+            },
+            {
+                "label": "CSS3",
+                "icon": "DiCss3",
+                "color": "bg-blue-600"
+            },
+            {
+                "label": "HTML5",
+                "icon": "DiHtml5",
+                "color": "bg-orange-700"
+            },
+            {
+                "label": "HEROKU",
+                "icon": "DiHeroku",
+                "color": "bg-purple-600"
             }
         ],
         "Languajes": [
