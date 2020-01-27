@@ -24,6 +24,9 @@ const ShowCase = asyncComponent(() =>
 const Projects = asyncComponent(() =>
     import('./Components/pages/Projects/Projects').then(module => module.default))
 
+const Education = asyncComponent(() =>
+    import('./Components/pages/Education/Education.jsx').then(module => module.default))
+
 function App() {
 
     AOS.init();
@@ -39,6 +42,7 @@ function App() {
                         <Route exact path="/Form" component={Form} />
                         <Route exact path="/Gallery" component={ShowCase} />
                         <Route exact path="/Projects" component={Projects} />
+                        <Route exact path="/Education" component={Education} />
                         <Route component={NotFound} />
                     </Switch>
                 </div>

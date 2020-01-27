@@ -1,0 +1,23 @@
+[
+    {
+        "Type": "Tecnical",
+        "Title": "Tecnico Superior Desarrollo de Software",
+        "School": "ITSC",
+        "Time": "05/2020",
+        "Location": "Carretera Mella Km 14, San Luis, Santo Domingo Este, República Dominicana"
+    },
+    {
+        "Type": "Online Certificate",
+        "Title": "Web Development Bootcamp",
+        "School": "UDEMY",
+        "Time": "01/2020",
+        "Location": ""
+    },
+    {
+        "Type": "High School Diploma",
+        "Title": "",
+        "School": "EDITECO",
+        "Time": "07/2012",
+        "Location": "Avenida Charles De Gaulle, Santo Domingo Este, República Dominicana"
+    }
+]

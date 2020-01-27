@@ -7,7 +7,8 @@
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "color": "border-red-500",
-        "animation": "fade-right"
+        "animation": "fade-right",
+        "link": "/Education"
     },
     {
         "title": "PORTFOLIO",
@@ -17,7 +18,8 @@
         },
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "color": "border-yellow-500",
-        "animation": "fade-up"
+        "animation": "fade-up",
+        "link": "/Portfolio"
     },
     {
         "title": "PROJECTS",
