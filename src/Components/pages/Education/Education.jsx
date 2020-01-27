@@ -8,7 +8,7 @@ const Education = () => {
     return ( 
         <div className="max-w-6xl pt-16 md:pt-32 mx-auto">
             <div className="text-center"><h1 className="text-4xl">Education timeline</h1></div>
-            <VerticalTimeline className="">
+            <VerticalTimeline>
                 {EduModel.map(element => {
                     return <CardComponent params={element}/>
                 })}

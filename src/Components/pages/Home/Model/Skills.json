@@ -2,10 +2,10 @@
     {
         "chartData": {
             "title": "Programming languajes",
-            "labels": ["C#", "JS"],
+            "labels": ["C#", "JS", "Swift"],
             "datasets": [
                 {
-                "data": [8, 8, 0, 10],
+                "data": [8, 8, 5, 0, 10],
                 "backgroundColor": "rgba(241, 83, 112, 0.8)"
                 }
             ]
@@ -13,14 +13,26 @@
     },
     {
         "chartData": {
-            "title": "Front End Frameworks",
-            "labels": ["Boostrap", "React", "Jquery"],
+            "title": "Front End",
+            "labels": ["Boostrap", "Tailwind", "Sass", "React", "Jquery"],
             "datasets": [
                 {
-                    "data": [8, 9, 7, 0, 10],
+                    "data": [8, 9, 7, 8, 8, 0, 10],
                     "backgroundColor": "rgba(241, 83, 112, 0.8)"
                 }
             ]
         }
+    },
+    {
+    "chartData": {
+        "title": "Back End",
+        "labels": ["MongoDB", "SQL Server", "Express", "RestAPI"],
+        "datasets": [
+            {
+                "data": [8, 9, 9, 9, 0, 10],
+                "backgroundColor": "rgba(241, 83, 112, 0.8)"
+            }
+        ]
     }
+}
 ]

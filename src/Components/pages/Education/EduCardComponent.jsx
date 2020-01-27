@@ -6,10 +6,10 @@ const EducationCard = (props) => {
     return ( 
         <VerticalTimelineElement 
             className=""
-            contentStyle={{ background: 'rgb(26, 32, 44)', 'box-shadow': '0 25px 50px -12px rgba(0, 0, 0, 0.25)', 'border-top-width': '2px', 'border-color': '#3182ce'}}
+            contentStyle={{ background: 'rgb(26, 32, 44)', 'box-shadow': '0 25px 50px -12px rgba(0, 0, 0, 0.25)', 'border-top-width': '4px', 'border-color': '#3182ce'}}
             contentArrowStyle={{ borderRight: '7px solid  rgb(26, 32, 44)' }}
             date={props.params.Time}
-            iconStyle={{ background: 'rgb(26, 31, 43)' }}
+            iconStyle={{ background: '#3182ce' }}
             icon={<GiBookmarklet />}>
 
             <div className="flex flex-no-wrap text-2xl my-2 border-b-2">
