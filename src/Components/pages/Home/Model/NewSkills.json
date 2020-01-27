@@ -1,0 +1,58 @@
+[
+    {
+        "PLanguajes": [
+            {
+                "label": "C#",
+                "icon": "DiNetmagazine",
+                "color": "bg-purple-600"
+            },
+            {
+                "label": "JavaScript",
+                "icon": "DiJavascript1",
+                "color": "bg-yellow-600"
+            },
+            {
+                "label": "Swift",
+                "icon": "DiSwift",
+                "color": "bg-orange-600"
+            }
+        ],
+        "Skills": [
+            {
+                "label": "React",
+                "icon": "DiReact",
+                "color": "bg-blue-600"
+            },
+            {
+                "label": "Boostrap",
+                "icon": "DiBootstrap",
+                "color": "bg-indigo-900"
+            },
+            {
+                "label": "Tailwind",
+                "icon": "DiReact",
+                "color": "bg-blue-600"
+            },
+            {
+                "label": "Sass",
+                "icon": "DiSass",
+                "color": "bg-pink-600"
+            },
+            {
+                "label": "Jquery",
+                "icon": "DiJqueryLogo",
+                "color": "bg-blue-600"
+            }
+        ],
+        "Languajes": [
+            {
+                "label": "Spanish",
+                "content": "ES"
+            },
+            {
+                "label": "English",
+                "content": "EN"
+            }
+        ]
+    }
+]

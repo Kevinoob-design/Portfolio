@@ -3,7 +3,8 @@
 import React, {useState, useEffect} from "react";
 import AboutCard from "./BodyComponents/AboutCardComponent";
 import aboutModel from "./Model/About.json";
-import Skills from "./Skills";
+// import Skills from "./Skills";
+import Skills from "./NewSkills";
 
 function About(){
 
