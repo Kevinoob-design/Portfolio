@@ -1,7 +1,6 @@
 //jshint esversion:6
 
 import React, { useState } from "react";
-import { Link, withRouter } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
 
 function Nav() {
@@ -74,39 +73,33 @@ function Nav() {
 
         <ul className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={500}>
-              <Link onClick={handleMenuCollapse} className="nav__item" to="/">Home</Link>
+            <Scroll activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+              Home
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-85} duration={500}>
-              <Link onClick={handleMenuCollapse} className="nav__item" to="/#about">
-                  About
-              </Link>
+            <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-85} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+              About 
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={500}>
-            <Link onClick={handleMenuCollapse} className="nav__item" to="/#work">
-              Work
-            </Link>
+            <Scroll activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+              Work 
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={500}>
-              <Link onClick={handleMenuCollapse} className="nav__item" to="/#PerpExp">
-                Experience
-            </Link>
+            <Scroll activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+              Experience
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Link onClick={handleMenuCollapse} className="nav__item" to="/Form">
+            <Scroll activeClass="active" to="Contact" spy={true} smooth={true} offset={-85} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Contact
-            </Link>
+            </Scroll>
           </li>
         </ul>
       </nav>
     </div>
   );
 }
-export default withRouter(Nav);
+export default Nav;

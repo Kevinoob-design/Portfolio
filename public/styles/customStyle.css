@@ -28,7 +28,7 @@ body {
 }
 
 #Galery {
-    column-count: 4;
+    column-count: 8;
 }
 
 #PhotoContainer, button{

@@ -1,20 +1,19 @@
 //jshint esversion:6
 
 import React from "react";
-import { withRouter } from "react-router-dom";
 import NumberFormat from 'react-number-format';
 
 const Form = (props) => {
 
     function cancelForm() {
-        props.history.push("/");
+        
     }
     function submitForm() {
-        // props.history.push("/");
+        
     }
 
     return ( 
-        <div className="pt-32 px-4 text-base">
+        <div className="px-4 text-base">
             <div className="mx-auto max-w-lg shadow-2xl rounded md:p-10 p-5 text-center border-t-4 border-blue-600">
                 <h1 className="text-2xl">Feel free to ask anything.</h1>
                 <form action="/api/contact" method="post">
@@ -39,4 +38,4 @@ const Form = (props) => {
         </div>
      );
 }
-export default withRouter(Form);
+export default Form;

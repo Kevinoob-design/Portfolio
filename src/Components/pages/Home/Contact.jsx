@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Link  as Scroll } from "react-scroll";
 import KeyboardArrowUpRoundedIcon from '@material-ui/icons/KeyboardArrowUpRounded';
+import Form from "../Form/Form";
 
 const Contact = () => {
     return ( 
@@ -15,7 +16,7 @@ const Contact = () => {
             </div>
 
             <div className="my-2">
-                <Link to="/Form"> Submit a form</Link>
+                <Form/>
             </div>
         </div>
      );

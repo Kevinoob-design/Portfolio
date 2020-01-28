@@ -10,7 +10,7 @@ function WorkExp() {
 
     return (
         <div id="work" className="pb-5">
-            <div className="md:w-1/2 w-auto mx-auto text-3xl text-center shadow-xl rounded"><b>WORK HISTORY</b></div>
+            <div className="max-w-6xl mx-auto text-3xl text-center shadow-xl rounded"><b>WORK HISTORY</b></div>
             <VerticalTimeline>
                 {WorkModel.map(element => {
                     return (<WorkCard params={element} />);

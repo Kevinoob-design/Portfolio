@@ -4,7 +4,7 @@ import SkillAvatar from "./AvatarSkillComponent";
 const SkillComponent = (props) => {
 
     return ( 
-        <div className="text-center max-w-xl mx-auto" data-aos="fade-down" data-aos-delay="300" data-aos-duration="600">
+        <div className="text-center max-w-xl mx-auto">
 
             <div className="md:w-1/2 w-auto text-2xl text-center mx-auto shadow-inner rounded bg-gray-900"><b>SKILLS</b></div>
 

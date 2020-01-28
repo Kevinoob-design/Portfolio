@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 function Testimonials(){
 
     return(
-        <div id="testimonials" className="md:flex mt-5 items-center" data-aos="fade-right" data-aos-duration="600" data-aos-anchor-placement="top-center">
+        <div id="testimonials" className="md:flex mt-5 items-center max-w-6xl mx-auto" data-aos="fade-right" data-aos-duration="600" data-aos-anchor-placement="top-center">
 
             <div className="md:w-1/3 text-center testimonialTitle rounded-lg shadow-2xl p-3 border-l-8 border-blue-600 bg-gray-900" >
                 <h1 className="text-6xl font-hairline ">What others are saying</h1>

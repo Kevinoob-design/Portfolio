@@ -22,8 +22,8 @@ const ShowCase = () => {
     };
 
     return ( 
-        <div className="text-center shadow-2xl mx-3 md:mx-40 h-auto">
-            <div id="Galery" className="px-1 pt-12 md:pt-32 lg:p-32">
+        <div className="text-center mx-3 my-3">
+            <div id="Galery" className="px-1 pt-12">
             {photos.map((element, index) => { return <PhotoContainer params={element} index={index} click={openLightbox} />  } )}
             <ModalGateway>
                 {viewerIsOpen ? (
@@ -40,7 +40,7 @@ const ShowCase = () => {
                 ) : null}
             </ModalGateway>
             </div>
-            <div className="text-2xl items-center pb-12 underline"><p>Shoot with my phone</p></div>
+            {/* <div className="text-2xl items-center pb-12 underline"><p>Shoot with my phone</p></div> */}
         </div>
      );
 }

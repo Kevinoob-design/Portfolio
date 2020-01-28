@@ -4,7 +4,7 @@ import { GoBrowser } from "react-icons/go";
 
 const ProjectComponent = (props) => {
     return (
-        <div className="rounded shadow-2xl items-center align-top my-5 p-3 lg:w-1/3 w-auto appShow flex-grow mx-5" data-aos="fade-right" data-aos-duration="600">
+        <div className="rounded shadow-2xl items-center align-top my-5 p-3 lg:w-1/3 w-auto appShow flex-grow mx-5 bg-gray-900" data-aos="fade-right" data-aos-duration="600">
             <div className="w-full text-center md:text-left h-full lg:mb-16 relative">
                 <h1 className="text-4xl mb-1 underline">{props.params.title}</h1>
                 <p>{props.params.description}</p>
