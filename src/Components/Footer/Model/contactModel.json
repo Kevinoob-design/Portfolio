@@ -2,20 +2,20 @@
     {
 
         "url": "https://www.linkedin.com/in/hector-j-morales-veloz-66826219b/",
-        "icon": "LinkedInIcon"
+        "icon": "IoLogoLinkedin"
     },
     {
 
         "url": "https://github.com/Kevinoob-design",
-        "icon": "GitHubIcon"
+        "icon": "IoLogoGithub"
     },
     {
 
         "url": "https://www.instagram.com/hector.moralesveloz/?hl=en",
-        "icon": "InstagramIcon"
+        "icon": "IoLogoInstagram"
     },
     {
         "url": "https://twitter.com/HectorMveloZ",
-        "icon": "TwitterIcon"
+        "icon": "IoLogoTwitter"
     }
 ]

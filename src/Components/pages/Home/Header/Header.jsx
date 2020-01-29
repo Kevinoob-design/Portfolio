@@ -4,7 +4,7 @@ import React from "react";
 // import Presentation from "./Presentation";
 import NewPresentation from "./NewPresentation";
 import { Link as Scroll } from "react-scroll";
-import PlayForWorkIcon from '@material-ui/icons/PlayForWork';
+import { MdPlayForWork} from "react-icons/md";
 
 function Header(){
     return (
@@ -12,7 +12,7 @@ function Header(){
         <NewPresentation />
         <a href="/#testimonials" data-aos="fade-down" data-aos-delay="3000" data-aos-duration="3000" data-aos-anchor="#Header" data-aos-mirror={false}> 
           <Scroll activeClass="active" to="testimonials" spy={true} smooth={true} offset={-95} duration={1000}>
-            <PlayForWorkIcon style={{ fontSize: 50 }} />
+            <MdPlayForWork style={{ fontSize: 50 }} />
           </Scroll>
         </a>
       </div>
