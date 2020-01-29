@@ -5,7 +5,8 @@ import ProjectComponet from "./ProjectComponent";
 const Projects = () => {
     return ( 
         <div className="pt-16 justify-center ProjectsContainer">
-            <div className="max-w-6xl md:p-12 lg:flex lg:flex-wrap mx-auto">
+            <div className="md:w-1/2 w-auto text-2xl text-center mx-auto shadow-inner rounded bg-gray-900"><b>PROJECTS</b></div>
+            <div className="max-w-6xl lg:flex lg:flex-wrap mx-auto">
                 {ProjectModel.map(element => {
                     return <ProjectComponet params={element} />
                 })}

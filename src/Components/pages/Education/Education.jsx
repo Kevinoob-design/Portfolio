@@ -6,8 +6,8 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Education = () => {
     return ( 
-        <div className="mx-auto max-w-6xl text-2xl text-center mx-auto">
-            <div className="text-center"><h1 className="text-4xl">Education timeline</h1></div>
+        <div className="mx-auto max-w-6xl text-2xl mx-auto">
+            <div className="text-center"><h1 className="text-4xl">Education</h1></div>
             <VerticalTimeline>
                 {EduModel.map(element => {
                     return <CardComponent params={element}/>

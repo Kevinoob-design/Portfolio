@@ -7,7 +7,7 @@ import Form from "../Form/Form";
 const Contact = () => {
     return ( 
         <div id="Contact" className="text-center items-center mt-5">
-            <a href="/#"><Scroll activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={500}><KeyboardArrowUpRoundedIcon /></Scroll></a>
+            <a href="/#"><Scroll activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={1000}><KeyboardArrowUpRoundedIcon /></Scroll></a>
 
             <div className="md:w-1/2 w-auto text-2xl text-center mx-auto underline">CONTACT ME</div>
 

@@ -13,11 +13,11 @@ function Presentation() {
   return (
     <div className="flex headerContainer items-center max-w-6xl">
       <div className="p-5 text-2xl">
-        <p data-aos="fade-in" data-aos-duration="1000" data-aos-anchor="#Header">Hi</p>
-        <p data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1500" data-aos-anchor="#Header">My name is</p>
-        <h1 data-aos="fade-left" data-aos-delay="1500" data-aos-duration="2000" data-aos-anchor="#Header" className="text-4xl md:text-6xl">Hector Morales</h1>
+        <p data-aos="fade-in" data-aos-duration="1000" data-aos-anchor="#Header" data-aos-mirror={false}>Hi</p>
+        <p data-aos="fade-in" data-aos-delay="1000" data-aos-duration="1500" data-aos-anchor="#Header" data-aos-mirror={false}>My name is</p>
+        <h1 data-aos="fade-left" data-aos-delay="1500" data-aos-duration="2000" data-aos-anchor="#Header" data-aos-mirror={false} className="text-4xl md:text-6xl">Hector Morales</h1>
         <div className="mb-5 flex max-w-sm mx-auto items-center">
-          <p data-aos="fade-right" data-aos-delay="2000" data-aos-duration="2000" data-aos-anchor="#Header" className="w-1/2 text-right mr-1">I'm a </p>
+          <p data-aos="fade-right" data-aos-delay="2000" data-aos-duration="2000" data-aos-anchor="#Header" data-aos-mirror={false} className="w-1/2 text-right mr-1">I'm a </p>
           <Slider
             className="text-left w-2/3"
             autoplaySpeed={3000}
@@ -29,11 +29,11 @@ function Presentation() {
             draggable={false}
             touchMove={false}>
             {be.map(element => {
-              return <p data-aos="fade-up" data-aos-delay="3000" data-aos-duration="3000" data-aos-anchor="#Header" className="text-yellow-500">{element}</p>;
+              return <p data-aos="fade-up" data-aos-delay="3000" data-aos-duration="3000" data-aos-anchor="#Header" data-aos-mirror={false} className="text-yellow-500">{element}</p>;
             })}
           </Slider>
         </div>
-        <p data-aos="fade-up" data-aos-delay="3000" data-aos-duration="3000" data-aos-anchor="#Header">
+        <p data-aos="fade-up" data-aos-delay="3000" data-aos-duration="3000" data-aos-anchor="#Header" data-aos-mirror={false}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dicta
           nulla, dignissimos odio quo qui nisi explicabo maiores fugiat vero
           sit et tempore, quidem quas iure quae autem veritatis esse?

@@ -10,8 +10,10 @@ function Header(){
     return (
       <div id="Header" className="text-white presentationContainer shadow-2xl p-3 items-center text-center flex flex-col justify-center">
         <NewPresentation />
-        <a href="/#testimonials" data-aos="fade-down" data-aos-delay="3000" data-aos-duration="3000" data-aos-anchor="#Header"> 
-          <Scroll activeClass="active" to="testimonials" spy={true} smooth={true} offset={-75} duration={500}><PlayForWorkIcon style={{ fontSize: 50 }} /></Scroll>
+        <a href="/#testimonials" data-aos="fade-down" data-aos-delay="3000" data-aos-duration="3000" data-aos-anchor="#Header" data-aos-mirror={false}> 
+          <Scroll activeClass="active" to="testimonials" spy={true} smooth={true} offset={-95} duration={1000}>
+            <PlayForWorkIcon style={{ fontSize: 50 }} />
+          </Scroll>
         </a>
       </div>
     );

@@ -58,7 +58,7 @@ function Nav() {
   }
 
   return (
-    <div data-aos="fade-down" data-aos-delay="3000" data-aos-duration="3000"> 
+    <div data-aos="fade-down" data-aos-delay="3000" data-aos-duration="3000" data-aos-mirror={false}> 
       <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse}>
         <div className="inline-block md:hidden pt-4">
           <button
@@ -73,27 +73,27 @@ function Nav() {
 
         <ul className={elementHidden + " md:flex w-screen md:w-auto justify-center"}>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+            <Scroll activeClass="active" to="Header" spy={true} smooth={true} offset={-75} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Home
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-85} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+            <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               About 
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+            <Scroll activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Work 
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+            <Scroll activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Experience
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="Contact" spy={true} smooth={true} offset={-85} duration={500} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+            <Scroll activeClass="active" to="Contact" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Contact
             </Scroll>
           </li>

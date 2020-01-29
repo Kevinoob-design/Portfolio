@@ -14,7 +14,8 @@ import NotFound from "./Components/pages/NotFound";
 function App() {
 
     AOS.init({
-        once: true
+        once: false,
+        mirror: true
     });
 
     return (

@@ -131,7 +131,7 @@ body {
     }
 
     #Galery {
-        column-count: auto;
+        column-count: 3;
     }
 }
 
