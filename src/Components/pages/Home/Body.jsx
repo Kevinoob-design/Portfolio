@@ -14,7 +14,7 @@ function Body(){
         <div id="Body">
             <Header />
             <div className="mx-auto p-2">
-                <Testimonials/>
+                {/* <Testimonials/> */}
                 <About/>
                 <WorkExp/>
                 <PerpExp/>

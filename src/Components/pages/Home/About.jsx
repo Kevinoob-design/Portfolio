@@ -37,8 +37,8 @@ function About(){
         </div>
         <Skills/>
         <Education/>
-        <Projects/>
-        <Gallery/>
+        {/* <Projects/> */}
+        {/* <Gallery/> */}
     </div>);
 }
 export default About;

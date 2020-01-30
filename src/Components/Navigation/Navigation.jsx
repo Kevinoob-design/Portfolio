@@ -78,7 +78,7 @@ function Nav() {
             </Scroll>
           </li>
           <li className={animate + " text-2xl p-5 fast"}>
-            <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+            <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-55} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               About 
             </Scroll>
           </li>

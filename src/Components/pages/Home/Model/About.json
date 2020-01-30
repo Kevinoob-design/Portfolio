@@ -1,6 +1,6 @@
 [
     {
-        "title": "EDUCATION",
+        "title": "MUSIC",
         "img": {
             "url": "https://via.placeholder.com/450",
             "alt": "dummie img 1"
@@ -11,7 +11,7 @@
         "link": "/Education"
     },
     {
-        "title": "PORTFOLIO",
+        "title": "TRAVEL",
         "img": {
             "url": "https://via.placeholder.com/450",
             "alt": "dummie img 1"
@@ -22,7 +22,7 @@
         "link": "/Portfolio"
     },
     {
-        "title": "PROJECTS",
+        "title": "LAGAUJES",
         "img": {
             "url": "https://via.placeholder.com/450",
             "alt": "dummie img 1"
@@ -33,7 +33,7 @@
         "link": "/Projects"
     },
     {
-        "title": "PHOTOGRAPHY",
+        "title": "PASSION",
         "img": {
             "url": "https://via.placeholder.com/450",
             "alt": "dummie img 1"
