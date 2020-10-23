@@ -17,9 +17,9 @@ function Body(){
             <div className="mx-auto p-2">
                 {/* <Testimonials/> */}
                 <About/>
-                <Photos/>
+                {/* <Photos/> */}
                 <WorkExp/>
-                <PerpExp/>
+                {/* <PerpExp/> */}
             </div>
             <Contact />
         </div>);

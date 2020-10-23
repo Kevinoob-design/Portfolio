@@ -10,11 +10,11 @@ const Contact = () => {
                 <MdKeyboardArrowUp className="text-xl cursor-pointer" />
             </Scroll>
 
-            <div className="md:w-1/2 w-auto text-2xl text-center mx-auto underline">CONTACT ME</div>
+            <div className="md:w-1/2 w-auto text-2xl text-center mx-auto">CONTACT ME</div>
 
-            <div className="my-2">
+            {/* <div className="my-2">
                 <a href="mailto: HectorM.dev@outlook.com"> HectorM.dev@outlook.com </a>
-            </div>
+            </div> */}
 
             <div className="my-2">
                 <Form/>

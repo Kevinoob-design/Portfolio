@@ -87,11 +87,11 @@ function Nav() {
               Work 
             </Scroll>
           </li>
-          <li className={animate + " text-2xl p-5 fast"}>
+          {/* <li className={animate + " text-2xl p-5 fast"}>
             <Scroll activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Experience
             </Scroll>
-          </li>
+          </li> */}
           <li className={animate + " text-2xl p-5 fast"}>
             <Scroll activeClass="active" to="Contact" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Contact

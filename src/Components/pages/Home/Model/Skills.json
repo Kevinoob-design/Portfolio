@@ -28,11 +28,11 @@
         "title": "Back End",
         "labels": ["MongoDB", "SQL Server", "Express", "RestAPI"],
         "datasets": [
-            {
-                "data": [8, 9, 9, 9, 0, 10],
-                "backgroundColor": "rgba(241, 83, 112, 0.8)"
-            }
-        ]
+                {
+                    "data": [8, 9, 9, 9, 0, 10],
+                    "backgroundColor": "rgba(241, 83, 112, 0.8)"
+                }
+            ]
+        }
     }
-}
 ]
