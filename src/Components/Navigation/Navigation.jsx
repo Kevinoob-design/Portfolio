@@ -77,16 +77,21 @@ function Nav() {
               Home
             </Scroll>
           </li>
-          <li className={animate + " text-2xl p-5 fast"}>
+          {/* <li className={animate + " text-2xl p-5 fast"}>
             <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-55} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               About 
             </Scroll>
-          </li>
+          </li> */}
           <li className={animate + " text-2xl p-5 fast"}>
+            <Scroll activeClass="active" to="skills" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
+              Skills 
+            </Scroll>
+          </li>
+          {/* <li className={animate + " text-2xl p-5 fast"}>
             <Scroll activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Work 
             </Scroll>
-          </li>
+          </li> */}
           {/* <li className={animate + " text-2xl p-5 fast"}>
             <Scroll activeClass="active" to="PerpExp" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
               Experience

@@ -4,21 +4,29 @@ import React from "react";
 import Header from "./Header/Header"
 import Testimonials from "./Testimonials";
 import About from "./About";
-import Photos from "../Photography/ShowCase";
 import WorkExp from "./WorkExp";
+import Projects from "./Projects";
 import PerpExp from "./PerExp";
 import Contact from "./Contact";
 
-function Body(){
+import Skills from "./NewSkills";
+import Education from "../Education/Education";
+import Gallery from "../Photography/ShowCase";
+
+function Body() {
 
     return (
-        <div id="Body">
+        <div id="Body" className="z-10">
             <Header />
             <div className="mx-auto p-2">
-                {/* <Testimonials/> */}
-                <About/>
-                {/* <Photos/> */}
-                <WorkExp/>
+                {/* <Testimonials /> */}
+                {/* <About /> */}
+                <Skills />
+                {/* <Education /> */}
+                {/* <Projects/> */}
+                {/* <Gallery/> */}
+                {/* <WorkExp /> */}
+                {/* <Projects /> */}
                 {/* <PerpExp/> */}
             </div>
             <Contact />

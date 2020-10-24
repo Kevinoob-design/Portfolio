@@ -10,17 +10,19 @@ import Nav from "./Components/Navigation/Navigation";
 import Home from "./Components/pages/Home/Body";
 import Footer from "./Components/Footer/Footer";
 import NotFound from "./Components/pages/NotFound";
+import Particles from 'react-particles-js';
 
 function App() {
 
     AOS.init({
-        once: false,
-        mirror: true
+        once: true,
+        mirror: false
     });
 
     return (
     <div className="w-full text-white">
-        <Nav />
+        <Particles className="absolute w-full h-screen particles"/>
+        <Nav/>
         <Home/>
         <div className="bottomTheme text-lg">
             <Footer />

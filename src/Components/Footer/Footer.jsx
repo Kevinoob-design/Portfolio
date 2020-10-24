@@ -15,7 +15,7 @@ function Footer() {
             </div>
 
             <div className="text-sm pt-5">
-                <p><span>&copy;</span> 2020 • All rights reserved</p>
+                {/* <p><span>&copy;</span> 2020 • All rights reserved</p> */}
                 <p>Develop & Designed by <b>Héctor Morales</b></p>
             </div>
         </div>

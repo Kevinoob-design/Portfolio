@@ -12,6 +12,10 @@ body {
     background-attachment: fixed;
 }
 
+.particles {
+    z-index: -9999;
+}
+
 .appShow{
     /* background-image: url("https://androidwalls.net/wp-content/uploads/2015/04/Nexus%20Colorful%20Stock%20Background%20Android%20Wallpaper.jpg"); */
 }
@@ -65,7 +69,7 @@ body {
 }
 
 .headerContainer {
-    height: 600px;
+    /* height: 600px; */
 }
 
 .nameBox{
@@ -153,7 +157,7 @@ body {
     }
 
     .presentationContainer{
-        height: auto;
+        height: 100vh;
         padding-top: 15%;
     }
 }
