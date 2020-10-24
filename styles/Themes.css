@@ -1,0 +1,33 @@
+.presentationContainer{
+    
+    /* background: #000046;
+    background: linear-gradient(to right, #1CB5E0, #000046); */
+    
+}
+
+.ProjectsContainer{
+    /* background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%); */
+    /* background: linear-gradient(to right bottom, #2f3441 50%, #1a202c 50%); */
+}
+
+.testimonialTitle1{
+    background: #90cdf4; 
+    background: linear-gradient(to top, #1CB5E0, #90cdf4);
+}
+
+.bottomTheme{
+    background: #1a202c;
+    background: linear-gradient(to top, #1a202c, #2d37484d, #1a202c71);
+}
+
+@media only screen and (min-width: 900px){
+
+}
+
+@media only screen and (max-width: 900px){
+    nav{
+        background-color: #1a202c;
+    };
+}
+
+

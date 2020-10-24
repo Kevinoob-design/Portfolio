@@ -1,0 +1,185 @@
+.nav__item {
+    position: relative;
+}
+
+@media only screen and (min-width: 900px){
+
+    .ud-nav {
+        animation: moveForward 0.2s ease-in-out;
+        padding-top: 2rem;
+    }
+
+    .nav--inset {
+        animation: moveBack 0.2s ease-in-out;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes moveBack {
+        from {
+            padding-top: 2rem;
+            background-color: transparent;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0);
+        }
+
+        to {
+            padding-top: 0rem;          
+            background-color: #1A202C;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    @keyframes moveForward {
+        from {
+            padding-top: 0rem;
+            background-color: #1A202C;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        to {
+            padding-top: 2rem;
+            background-color: transparent;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0);
+        } 
+    }
+}
+
+.nav__item:hover:after {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.nav__item:hover:before {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.nav__item:before {
+    content: '';
+    position: absolute;
+    top: .1rem;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+    opacity: 0;
+
+    transform: translate3d(0, -.5rem, 0);
+    transition: opacity .25s cubic-bezier(.4, .25, .3, 1), transform 325ms cubic-bezier(.4, .25, .3, 1);
+}
+
+.nav__item:after {
+    content: '';
+    position: absolute;
+    bottom: .1rem;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+    opacity: 0;
+
+    transform: translate3d(0, .5rem, 0); 
+    transition: opacity .25s cubic-bezier(.4, .25, .3, 1), transform 325ms cubic-bezier(.4, .25, .3, 1);
+}
+
+.menuCollapse {
+    /* animation: slideDown 0.5s ease-in-out; */
+    /* height: 100vh; */
+    height: 100%;
+}
+
+.menuCollapseUp {
+    animation: slideUp 0.5s ease-in-out;
+    height: 3rem;
+}
+
+.aboutCard:hover, #PhotoContainer:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+    /* animation: aboutCardColorAnimate 0.5s ease-in-out; */
+}
+
+.NotFound{
+        animation: blurBack 1s ease-in-out;
+        filter: blur(100px);
+        animation-fill-mode: forwards;
+    }
+
+@keyframes blurBack {
+        from {
+            filter: blur(100px);
+        }
+
+        to {
+            filter: blur(0px);
+        }
+    }
+
+@keyframes aboutCardColorAnimate{
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color: red;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+
+    @keyframes slideDown {
+    from {
+        height: 3rem;
+    }
+
+    to {
+        height: 100vh;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        height: 100vh;
+    }
+
+    to {
+        height: 3rem;
+    } 
+}
+
+    @keyframes fadeOutUp {
+        from {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        to {
+            opacity: 0;
+            transform: translate3d(0, -30%, 0);
+            pointer-events: none;
+        }
+    }
+
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translate3d(0, -30%, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+}    
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translate3d(0, 5%, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }       
+    } 
