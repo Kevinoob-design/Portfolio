@@ -79,14 +79,6 @@ body {
     right: 25%;
 }
 
-.imgHolder{
-    background-image: url("../img/IMG_6031\(Edited\).jpg");
-
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-}
-
 .aboutCard {
     /* width: 24%; */
     transition: 0.2s ease-in-out;
