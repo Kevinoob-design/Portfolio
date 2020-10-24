@@ -2,7 +2,7 @@
     {
         "PLanguajes": [
             {
-                "label": "C#",
+                "label": "Csharp",
                 "icon": "SiCsharp",
                 "color": "bg-purple-600"
             },
