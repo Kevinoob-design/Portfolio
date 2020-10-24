@@ -44,11 +44,11 @@ const Form = (props) => {
                 <form className="flex flex-wrap justify-center" onSubmit={submitForm} action="https://formspree.io/f/xaylopke" method="POST">
 
                     <input name="Subject" autocomplete="off" required id="Subject" className="rounded bg-gray-800 shadow-2xl w-full flex-grow mx-auto my-3 mx-1 p-1" placeholder="Subject..." type="text" />
-                    <input name="Name" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 md:w-auto w-1/2 flex-grow" placeholder="Josh" type="text" />
-                    <input name="LastName" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 md:w-auto w-1/2 flex-grow" placeholder="Nichols" type="text" />
-                    <input name="ContactEmail" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 block mx-auto w-2/3 flex-grow" placeholder="email@example.com" type="email" />
+                    <input name="Name" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 md:mr-1 p-1 md:w-auto w-1/2 flex-grow" placeholder="Josh" type="text" />
+                    <input name="LastName" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 md:ml-1 p-1 md:w-auto w-1/2 flex-grow" placeholder="Nichols" type="text" />
+                    <input name="ContactEmail" autocomplete="off" required className="rounded bg-gray-800 shadow-2xl my-3 p-1 block mx-auto w-2/3 flex-grow" placeholder="email@example.com" type="email" />
 
-                    <NumberFormat value={formStatus.valueNumber} name="phone" format="(###) ###-####" mask="_" required className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 w-auto flex-grow" placeholder="(800)-123-4567" type="phone" />
+                    <NumberFormat value={formStatus.valueNumber} name="phone" format="(###) ###-####" mask="_" required className="rounded bg-gray-800 shadow-2xl my-3 p-1 w-auto flex-grow" placeholder="(800)-123-4567" type="phone" />
 
                     {/* <select name="TypeOfPhone" className="rounded bg-gray-800 shadow-2xl my-3 mx-1 p-1 flex-grow">
                         <option value="Cell">Cellphone</option>

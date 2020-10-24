@@ -1,5 +1,5 @@
-{
-  "homepage": "https://kevinoob-design.github.io/Portfolio/",
+{ 
+  "homepage": "http://kevinoob-design.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -34,7 +34,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "http://localhost:3000",
   "eslintConfig": {
     "extends": "react-app"
   },

@@ -94,7 +94,7 @@ function Presentation() {
           >
             I'm a recently grad software engineer with passion for building
             great UI/UX. I'm constantly learning new skills while i work thought
-            my goals. I love photography, dogs and looking at the stars{" "}
+            my goals. I love photography, dogs, and looking at the stars{" "}
             <span role="img" aria-labelledby="stars">
               ✨
             </span>
