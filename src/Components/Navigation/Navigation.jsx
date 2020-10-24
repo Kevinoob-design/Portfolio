@@ -58,8 +58,8 @@ function Nav() {
   }
 
   return (
-    <div data-aos="fade-down" data-aos-delay="3000" data-aos-duration="3000" data-aos-mirror={false}> 
-      <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 fixed w-full md:h-auto z-50 " + menuCollapse}>
+    <div className="fixed w-full z-50 h-auto" data-aos="fade-down" data-aos-delay="3000" data-aos-duration="3000" data-aos-mirror={false}> 
+      <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 md:h-auto z-50 " + menuCollapse}>
         <div className="inline-block md:hidden pt-4">
           <button
             id="ham"
