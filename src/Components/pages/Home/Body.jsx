@@ -11,7 +11,6 @@ import Contact from "./Contact";
 
 import Skills from "./NewSkills";
 import Education from "../Education/Education";
-import Gallery from "../Photography/ShowCase";
 
 function Body() {
 
@@ -24,7 +23,6 @@ function Body() {
                 <Skills />
                 {/* <Education /> */}
                 {/* <Projects/> */}
-                {/* <Gallery/> */}
                 {/* <WorkExp /> */}
                 {/* <Projects /> */}
                 {/* <PerpExp/> */}
