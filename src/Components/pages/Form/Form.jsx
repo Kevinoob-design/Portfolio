@@ -62,7 +62,7 @@ const Form = (props) => {
                     {formStatus.status === "SUCCESS" ? <p>Thanks!</p> : <button className="w-1/3 p-2 bg-blue-800 hover:bg-blue-900 rounded shadow-2xl mx-5">Submit</button>}
                     {formStatus.status === "ERROR" && <p>Ooops! There was an error.</p>}
                 </form>
-                <p className="text-sm mt-5">This information is meant to get in contact with you ONLY!. I will not use it for advertising nor subscribe you to a newslatter.</p>
+                <p className="text-sm mt-5">This information is meant to get in contact with you ONLY!. I will not use it for advertising nor subscribe you to a newsletter.</p>
             </div>
         </div>
     );
