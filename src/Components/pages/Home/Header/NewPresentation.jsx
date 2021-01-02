@@ -18,7 +18,8 @@ function Presentation() {
         <h1
           className="text-4xl md:text-6xl"
           data-aos="fade-in"
-          data-aos-duration="1000"
+          data-aos-delay="500"
+          data-aos-duration="2000"
           data-aos-anchor="#Header"
           data-aos-mirror={false}
         >
@@ -26,8 +27,8 @@ function Presentation() {
         </h1>
         <h1
           className="text-4xl md:text-6xl"
-          data-aos="fade-left"
-          data-aos-delay="1500"
+          data-aos="fade-in"
+          data-aos-delay="1300"
           data-aos-duration="2000"
           data-aos-anchor="#Header"
           data-aos-mirror={false}
@@ -37,7 +38,7 @@ function Presentation() {
         <div className="mb-5 flex md:max-w-sm">
           <p
             data-aos="fade-right"
-            data-aos-delay="2000"
+            data-aos-delay="1800"
             data-aos-duration="2000"
             data-aos-anchor="#Header"
             data-aos-mirror={false}
@@ -62,8 +63,8 @@ function Presentation() {
               return (
                 <p
                   data-aos="fade-in"
-                  data-aos-delay="3000"
-                  data-aos-duration="3000"
+                  data-aos-delay="2150"
+                  data-aos-duration="2500"
                   data-aos-anchor="#Header"
                   data-aos-mirror={false}
                   className="text-4xl text-yellow-500 text-center"
@@ -75,7 +76,7 @@ function Presentation() {
           </Slider>
           <p
             data-aos="fade-left"
-            data-aos-delay="2000"
+            data-aos-delay="1800"
             data-aos-duration="2000"
             data-aos-anchor="#Header"
             data-aos-mirror={false}
@@ -87,19 +88,36 @@ function Presentation() {
         <div className="max-w-2xl text-gray-300">
           <p
             data-aos="fade-up"
-            data-aos-delay="3000"
-            data-aos-duration="3000"
+            data-aos-delay="2300"
+            data-aos-duration="2000"
             data-aos-anchor="#Header"
             data-aos-mirror={false}
           >
-            I'm a recently grad software engineer with passion for building
-            great UI/UX. I'm constantly learning new skills while I work thought
-            my goals. I love photography, dogs, and looking at the stars{" "}
+            I'm a recently grad software engineer with passion for building great UI/UX.
+          </p>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="2500"
+            data-aos-duration="2000"
+            data-aos-anchor="#Header"
+            data-aos-mirror={false}
+          >
+            I'm constantly learning new skills while I work thought my goals.
+          </p>
+          <p
+            data-aos="fade-up"
+            data-aos-delay="2700"
+            data-aos-duration="2000"
+            data-aos-anchor="#Header"
+            data-aos-mirror={false}
+          >
+            I love photography, dogs, and looking at the stars{" "}
             <span role="img" aria-labelledby="stars">
               ✨
             </span>
           </p>
         </div>
+
         <div className="mt-10">
           {social.map((element) => {
             return <SocialStack params={element} />;
@@ -118,8 +136,8 @@ const SocialStack = (props) => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-delay="3000"
-      data-aos-duration="3000"
+      data-aos-delay="2900"
+      data-aos-duration="2000"
       data-aos-anchor="#Header"
       data-aos-mirror={false}
       className="inline-block mx-2"

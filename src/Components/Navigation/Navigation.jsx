@@ -58,7 +58,7 @@ function Nav() {
   }
 
   return (
-    <div className="fixed w-full z-50 h-auto" data-aos="fade-down" data-aos-delay="3000" data-aos-duration="3000" data-aos-mirror={false}> 
+    <div className="fixed w-full z-50 h-auto" data-aos="fade-down" data-aos-delay="3000" data-aos-duration="2000" data-aos-mirror={false}>
       <nav id="navBar" className={"text-white ud-nav top-0 right-0 p-1 md:h-auto z-50 " + menuCollapse}>
         <div className="inline-block md:hidden pt-4">
           <button
@@ -79,17 +79,17 @@ function Nav() {
           </li>
           {/* <li className={animate + " text-2xl p-5 fast"}>
             <Scroll activeClass="active" to="about" spy={true} smooth={true} offset={-55} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
-              About 
+              About
             </Scroll>
           </li> */}
           <li className={animate + " text-2xl p-5 fast"}>
             <Scroll activeClass="active" to="skills" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
-              Skills 
+              Skills
             </Scroll>
           </li>
           {/* <li className={animate + " text-2xl p-5 fast"}>
             <Scroll activeClass="active" to="work" spy={true} smooth={true} offset={-85} duration={1000} onClick={handleMenuCollapse} className="nav__item cursor-pointer">
-              Work 
+              Work
             </Scroll>
           </li> */}
           {/* <li className={animate + " text-2xl p-5 fast"}>
