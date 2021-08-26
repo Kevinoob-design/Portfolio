@@ -17,5 +17,16 @@
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}/src"
         }
+    ],
+    "compounds": [
+        {
+            "name": "Compound",
+            "presentation": {
+                "hidden": false,
+                "group": "Run",
+                "order": 1
+            },
+            "configurations": ["Launch Chrome", "Run npm start"]
+        }
     ]
 }

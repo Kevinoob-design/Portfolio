@@ -4,6 +4,7 @@ import React from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./customAOS.css"
 
 // import asyncComponent from './AsyncComponen';
 import Nav from "./Components/Navigation/Navigation";

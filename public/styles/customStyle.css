@@ -1,156 +1,155 @@
-*{
-    outline: none;
-    box-sizing: border-box;
+* {
+  outline: none;
+  box-sizing: border-box;
 }
 
-img{
-    display: inline;
+img {
+  display: inline;
 }
 
 body {
-    font-family: 'Source Serif Pro', serif;
-    background-attachment: fixed;
+  font-family: "Source Serif Pro", serif;
+  background-attachment: fixed;
 }
 
 .particles {
-    z-index: -9999;
+  z-index: -9999;
 }
 
-.appShow{
-    /* background-image: url("https://androidwalls.net/wp-content/uploads/2015/04/Nexus%20Colorful%20Stock%20Background%20Android%20Wallpaper.jpg"); */
+.appShow {
+  /* background-image: url("https://androidwalls.net/wp-content/uploads/2015/04/Nexus%20Colorful%20Stock%20Background%20Android%20Wallpaper.jpg"); */
 }
 
-#Body{
-    overflow-x:hidden;
+#Body {
+  overflow-x: hidden;
 }
 
-.mouseMove{
-    cursor: grab;
+.mouseMove {
+  cursor: grab;
 }
-.mouseMove:active{
-    cursor: grabbing;
+.mouseMove:active {
+  cursor: grabbing;
 }
 
 #Galery {
-    column-count: 8;
+  column-count: 8;
 }
 
-#PhotoContainer, button{
-    transition: 0.2s ease-in-out;
+#PhotoContainer,
+button {
+  transition: 0.2s ease-in-out;
 }
 
 #PhotoContainer:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #FFFFFF; 
-    border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #2d3748; 
-  }
+  width: 5px;
+}
 
-.presentationContainer{
-    height: 100vh;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2d3748;
+}
+
+.presentationContainer {
+  height: 100vh;
 }
 
 .headerContainer {
-    /* height: 600px; */
+  /* height: 600px; */
 }
 
-.nameBox{
-    height: 60px;
-    top: 55px;
-    left: 25%;
-    right: 25%;
+.nameBox {
+  height: 60px;
+  top: 55px;
+  left: 25%;
+  right: 25%;
 }
 
 .aboutCard {
-    /* width: 24%; */
-    transition: 0.2s ease-in-out;
+  /* width: 24%; */
+  transition: 0.2s ease-in-out;
 }
 
 .workCard {
-    width: 49%;
-    height: 450px;
-    vertical-align: bottom;
-    /* justify-content: space-between; */
+  width: 49%;
+  height: 450px;
+  vertical-align: bottom;
+  /* justify-content: space-between; */
 }
 
-.resp{
-    height: 50%;
+.resp {
+  height: 50%;
 }
 
 @media only screen and (max-width: 900px) {
+  .aboutCard {
+    width: 48%;
+  }
 
-    .aboutCard {
-        width: 48%;
-    }
-
-    .workCard {
-        height: auto;
-        width: 48%;
-    }
+  .workCard {
+    height: auto;
+    width: 48%;
+  }
 }
 
-@media only screen and (max-width: 770px){
-    .aboutCard {
-        width: 48%;
-        margin: 5px;
-    }
+@media only screen and (max-width: 770px) {
+  .aboutCard {
+    width: 48%;
+    margin: 5px;
+  }
 
-    .workCard {
-        height: auto;
-        width: 100%;
-    }
+  .workCard {
+    height: auto;
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width: 517px){
-    .aboutCard {
-        /* width: 47%; */
-        width: auto;
-        margin: 6px;
-    }
+@media only screen and (max-width: 517px) {
+  .aboutCard {
+    /* width: 47%; */
+    width: auto;
+    margin: 6px;
+  }
 
-    #Galery {
-        column-count: 3;
-    }
+  #Galery {
+    column-count: 3;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .nameBox {
-        left: 0%;
-        right: 0%;
-    }
-    .aboutCard,
-    .workCard {
-        width: auto;
-    }
-    .middleAlign {
-        padding: 0;
-    }
-    .testimony{
-        height: auto;
-        padding-top: 0%;
-    }
+  .nameBox {
+    left: 0%;
+    right: 0%;
+  }
+  .aboutCard,
+  .workCard {
+    width: auto;
+  }
+  .middleAlign {
+    padding: 0;
+  }
+  .testimony {
+    height: auto;
+    padding-top: 0%;
+  }
 
-    .presentationContainer{
-        height: 100vh;
-        padding-top: 15%;
-    }
+  .presentationContainer {
+    height: 100vh;
+    padding-top: 15%;
+  }
 }
-
